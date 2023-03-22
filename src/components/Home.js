@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './styles/Home.css'
 
 // logo // 
-import logo from '../images/logo1.png';
 
 
 
@@ -13,7 +12,7 @@ function Home() {
     return <> 
         <div className='navigation'> 
             <div> 
-                <img src='' alt='image displayed here' id='main-content-image' width={'500px'} height={'500px'}/> 
+                <img src='./images/logo1.png' alt='image displayed here' id='main-content-image' width={'300px'} height={'113px'}/> 
             </div>
 
             <div className='lnd-link'>
@@ -27,27 +26,31 @@ function Home() {
         <div className='main-content'> 
             <img src='' alt='slideshow of me'/> 
             <h1> Hi I'm Brooke, A Full Stack Developer.</h1>
+            <h3> Build Unique with me!</h3>
         </div>
 
         <div className='second-content'> 
            <div className='r-ani'> 
-                <div className='animation' id='plant animation'> </div>
+                <div id='plant-wrapper'> 
+                    <img src='./images/plant.gif' className='animation' id='plant-animation'/> 
+                </div>
                 <p className='animd'> I like to build cool things with code! </p>
             </div>
 
             <div className='l-ani'> 
                 <p className='animd'> Especially redesigning and reanimating. </p>
-                <div className='animation' id='plant animation'> </div>
-\            </div>
+                <div id='ghost-wrapper'>     
+                    <img src='./images/ghost.gif' className='animation' id='ghost-animation'/> 
+                </div> 
+           </div>
         </div>
 
-        <div> 
-            <button> give me more ! </button>
-            {/* function to redirect to portfolio */}
-        </div>
-
+        <div className='button-wrapper'> 
+            <button class="button" role="button23"> show me more! </button>    
+        </div> 
+        
         <div className='footer'>
-           
+        
         </div>
     </>
 }

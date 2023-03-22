@@ -6,12 +6,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 113px;
     background-color: white;
+    animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .lnd-link{
-    display: flex;
+    word-spacing: 150px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
 }
 
 .main-content{
@@ -19,22 +25,76 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: x-large;
+    animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 .second-content{
   margin: 50px 15px 50px 15px;
+  font-size: 25px;
+  text-align: center;
 }
 
 .animation{
     width: 450px;
-    height: 450px;
-    background-color: antiquewhite;
+    height: 490px;
+    border-style: solid;
+    border-color: #82ac85;
+    border-width: 5px;
+}
+
+#plant-wrapper{
+    animation: plant 3s linear infinite;
+}
+
+@keyframes plant { 
+    0%{
+        filter: hue-rotate(0deg)
+    }
+    100%{
+        filter: hue-rotate(360deg)
+    }
+}
+
+#ghost-wrapper{
+    animation: ghost 3s linear infinite;
+}
+
+@keyframes plant { 
+
 }
 
 .r-ani{
     display: flex;
     justify-content: flex-start;
     margin-bottom: 100px;
+    
+    -webkit-animation: fadeInLeft 1.2 both;
+    -moz-animation: fadeInLeft 1.2 both;
+    -o-animation: fadeInLeft 1.2 both;
+    animation: fadeInLeft 1.2 both;
+}
+
+@keyframes fadeInLeft { 
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
 }
 
 .l-ani{
@@ -43,7 +103,57 @@ body{
 }
 
 .animd{
- margin: 15px 20px 15px 20px; 
+ margin: 15px 20px 15px 20px;
+ 
+}
+
+.button-wrapper{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+  background-color: #a9c7ac;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.button:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button:active {
+  background-color: #82ac85;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
 }
 
 .footer{
@@ -54,5 +164,61 @@ body{
 
 @media only screen and (max-width: 750px){
 
-
+    body{
+        background-color: #a9c7ac;
+    }
+    
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 113px;
+        background-color: white;
+    }
+    
+    .lnd-link{
+        display: flex;
+    }
+    
+    .main-content{
+        margin: 100px 10px 50px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .second-content{
+      margin: 50px 15px 50px 15px;
+    }
+    
+    .animation{
+        width: 450px;
+        height: 450px;
+        background-color: antiquewhite;
+    }
+    
+    .r-ani{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 100px;
+    }
+    
+    .l-ani{
+        display: flex;
+        justify-content: flex-end
+    }
+    
+    .animd{
+     margin: 15px 20px 15px 20px; 
+    }
+    
+    .footer{
+        width: max-content;
+        height: 200px;
+        background-color: white;
+    }
+    
 }
+
+
+

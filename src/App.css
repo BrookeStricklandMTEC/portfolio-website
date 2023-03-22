@@ -1,3 +1,7 @@
+*{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
 #home-background{
   background-color: aqua;
 }
