@@ -13,6 +13,11 @@ body{
     animation-fill-mode: forwards;
 }
 
+.lnd-link{
+    word-spacing: 85px;
+    margin-right: 50px;
+    color: #a9c7ac;
+}
 
 .lnd-link:hover{
    color: #82ac85;
