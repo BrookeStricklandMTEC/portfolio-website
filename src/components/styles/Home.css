@@ -133,10 +133,16 @@ body{
         -webkit-transform: translateX(0px);
     }
 }
+
 /* ------------------------------------*/
 
 
 /* ---------- right animation --------- */
+
+#ghost-wrapper{
+    background-color: antiquewhite;
+}
+
 .l-ani{
     display: flex;
     justify-content: flex-end;
@@ -206,8 +212,7 @@ body{
 
 
 .animd{
- margin: 15px 20px 15px 20px;
- 
+ margin: 220px 50px 15px 30px;
 }
 
 .button-wrapper{
@@ -311,7 +316,6 @@ footer{
     .animation{
         width: 150px;
         height: 150px;
-        background-color: antiquewhite;
     }
     
     .r-ani{

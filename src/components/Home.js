@@ -70,7 +70,7 @@ function Home() {
                 </div>
 
             <div className='button-wrapper'>
-                <button class="button" role="button23" onClick={LinkToPort}> show me more! </button>
+                <button className="button" role="button23" onClick={LinkToPort}> show me more! </button>
             </div>
 
             <footer>
