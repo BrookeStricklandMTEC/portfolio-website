@@ -13,11 +13,9 @@ body{
     animation-fill-mode: forwards;
 }
 
-.lnd-link{
-    word-spacing: 150px;
-    margin-right: 50px;
-    text-decoration: none;
-    color: black;
+
+.lnd-link:hover{
+   color: #82ac85;
 }
 
 #lnd-image{
@@ -290,7 +288,13 @@ footer{
     }
 
     .lnd-link{
-        word-spacing: 25px; 
+        word-spacing: 25px;
+        margin-right: 50px;
+        color: #a9c7ac;
+    }
+    
+    .lnd-link:hover{
+       color: #82ac85;
     }
     
     #lnd-image{

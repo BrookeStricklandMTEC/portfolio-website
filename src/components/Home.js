@@ -41,9 +41,9 @@ function Home() {
                 </div>
 
                 <div className='lnd-link'>
-                    <Link to={'/about-me'}> about </Link>
-                    <Link to={'/contact-me'}> contact </Link>
-                    <Link to={'/portfolio'}> portfolio </Link>
+                    <Link to={'/about-me'} style={{textDecoration: 'none', color: '#a9c7ac', fontSize: '20px'}}> about </Link>
+                    <Link to={'/contact-me'} style={{textDecoration: 'none', color: '#a9c7ac', fontSize: '20px'}}> contact </Link>
+                    <Link to={'/portfolio'} style={{textDecoration: 'none', color: '#a9c7ac', fontSize: '20px'}}> portfolio </Link>
                 </div>
 
             </div>
