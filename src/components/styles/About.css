@@ -15,19 +15,18 @@
 
 
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 600px){
     .jump-wrapper{
         display: flex;
         flex-direction: column;
         margin: 15px; 
         gap: 30px;
-       }
+    }
        
-       .container{
-           display: flex;
-           flex-direction: column;
-           margin: 55px;
-       }
-
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 55px;
+    }
 
 }

@@ -5,3 +5,19 @@
 #home-background{
   background-color: aqua;
 }
+
+.loading{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px){
+
+  .loading{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+}

@@ -1,12 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'; 
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
-import LottieView from "lottie-react-native";
-import View from "lottie-react-native";
+import "@lottiefiles/lottie-player";
 
 
 function App() {
@@ -23,28 +22,30 @@ function App() {
 
   return <>
 
-   <Router> 
-   {loading ? ( 
-      <div> </div>
-      // <View>
-      //   <LottieView
-      //     source={require("./99680-3-dots-loading.json")}
-      //     className='lottie'
-      //     autoPlay
-      //   />
-      // </View> 
-    ) : (
-      
-      <Routes>
-        <Route path='/' element={<Home> </Home>} > </Route>
-        <Route path='/about-me' element={<About> </About> } > </Route>
-        <Route path='/contact-me' element={ <Contact> </Contact> } > </Route>
-        <Route path='/portfolio' element={<Portfolio> </Portfolio>}> </Route>
-      </Routes>
-    )} 
-  </Router>
+    <Router>
+      {loading ?  (
+        <div className='loading'> 
+          <lottie-player
+            autoplay
+            loop
+            mode="normal"
+            src="https://assets3.lottiefiles.com/packages/lf20_a7hbqwb9.json"
+           style={{width: '500px', height: '500px'}}
+          >
+          </lottie-player>
+          </div>
+          ) : (
+
+          <Routes>
+            <Route path='/' element={<Home> </Home>} > </Route>
+            <Route path='/about-me' element={<About> </About>} > </Route>
+            <Route path='/contact-me' element={<Contact> </Contact>} > </Route>
+            <Route path='/portfolio' element={<Portfolio> </Portfolio>}> </Route>
+          </Routes>
+    )}
+        </Router>
   </>
   
 }
 
-export default App;
+    export default App;

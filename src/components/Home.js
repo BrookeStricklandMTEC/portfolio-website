@@ -20,18 +20,6 @@ function Home() {
     function LinkToPort() {
         window.location.href = '/portfolio'; 
     }
-
-    // const observer = new IntersectionObserver(entries => {
-    //     entries.forEach(entry => {
-    //         if(entry.isIntersecting){
-    //             document.querySelectorAll('.second-content')[0].classList.add('r-ani-div')
-    //             document.querySelectorAll('second-content')[1].classList.add('l-ani-div')
-
-    //         }
-    //     })
-    // })
-
-    // observer.observe(document.querySelector('.second-content'))
  
     return <>
         <div> 
