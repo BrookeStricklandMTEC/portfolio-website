@@ -10,10 +10,10 @@ function About() {
 
             <div className="jump-wrapper">
 
-                <a href="#jump-about"> 1 </a>
-                <a href="#jump-edu">  2</a>
-                <a href="#jump-exp"> 3 </a>
-                <a href="#jump-med"> 4 </a>
+                <a href="#jump-about" className="jumper"> 1 </a>
+                <a href="#jump-edu" className="jumper">  2</a>
+                <a href="#jump-exp" className="jumper"> 3 </a>
+                <a href="#jump-med" className="jumper"> 4 </a>
 
             </div>
 
@@ -21,8 +21,11 @@ function About() {
                 {/* flex center wont work, get help to try to center heap-p-flex */}
 
                 <div className="hea-p-flex">
+                    <div className="box1"> </div>  
+                    <div className="box2"> </div>
 
                     <h2 id="jump-about" className="head-wrap"> About Me </h2>
+
                     <div className="about-d">
                         <h3> Brooke strickland </h3>
                         <h6> Web Developer </h6>
@@ -65,7 +68,7 @@ function About() {
 
                 <div className="hea-p-flex-end">
 
-                    <h2 id="jump-about" className="head-wrap"> Education </h2>
+                    <h2 id="jump-edu" className="head-wrap"> Education </h2>
 
                     <div className="about-d-2">
                         <i> </i>
