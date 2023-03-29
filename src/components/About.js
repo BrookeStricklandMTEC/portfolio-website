@@ -34,19 +34,24 @@ function About() {
                             Hello there, my name is Brooke Strickland (as you've probably seen).
 
                             I started programming at the young age of 13, I was the only female in my game development class at Lakeridge Junior High in Orem Utah, my hometown.
-                            Game Developement has always been such a cool concept to me. Although, I was more interested in the animation and looks of games at the time. 
-                            <br/>
-                            Fast-forward four years, I learned just about everything the game-development course had to offer. 
+                            Game Developement has always been such a cool concept to me. Although, I was more interested in the animation and looks of games at the time.
+                        </p>
+
+                        <p>
+                            Fast-forward four years, I learned just about everything the game-development course had to offer.
                             Junior year of high school, my parents told me to check out Mountain View High School's Programming and Development class.
-                           <br/>
-                           {/* change these to indents or seperate paragrpah  */}
-                            First day of my programming and development class changed just about everthing!  
-                            From there, my instructor saw my potential and said I should check out Mountainland Technical College's Web Development Program! 
-                           
-                            After taking MTECH's introduction course at the same time as working for Skill Struck as a QA, I truly fell in love with Web Development and everything it has to offer!    
+                        </p>
+
+                        <p>
+                            First day of my programming and development class changed just about everthing!
+                            From there, my instructor saw my potential and said I should check out Mountainland Technical College's Web Development Program!
+
+                            After taking MTECH's introduction course at the same time as working for Skill Struck as a QA, I truly fell in love with Web Development and everything it has to offer!
 
                             I adore web developing and problem solving, and I truly want to expand my knowledge of programming, so I can make cooler things to show off!
-                            <br/>
+                        </p>
+
+                        <p>
                             I truly think programming has changed me into a much more diligent and hard working person than I was before.
                             Programming has helped me see problems with a logical eye and push me past my comfort zone.
                             I hope to prove to you, viewer, that I am a worthy member of any development team!
@@ -58,6 +63,11 @@ function About() {
 
                 <div className="hea-p-flex-end">
 
+
+
+                    <div className="box3"> </div>
+                    <div className="box4"> </div>
+
                     <h2 id="jump-edu" className="head-wrap"> Education </h2>
 
                     <div className="about-d-2">
@@ -68,8 +78,8 @@ function About() {
                         <p>
                             Mountainland Technical College has provided me a great opportunity to reach out and find a company willing to take me in as a Web Developement Intern.
                             I am hoping to find this opportunity to grow within the company and expand my skillsket to continue on with them even after the internship is over!
-                        
-                            Below, are some of the many programming languages and skills I developed and improved during my time with MTECH. 
+
+                            Below, are some of the many programming languages and skills I developed and improved during my time with MTECH.
                         </p>
 
                         <div className="skill-wrapper">
@@ -115,7 +125,7 @@ function About() {
                         <h6> January 2022 - May 2022 </h6>
 
 
-                        <p>  
+                        <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
@@ -129,7 +139,7 @@ function About() {
                         <h6> January 2022 - August 2022 </h6>
 
 
-                        <p>  
+                        <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
@@ -142,7 +152,7 @@ function About() {
                         <h6> August 2022 - Present </h6>
 
 
-                        <p>  
+                        <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
@@ -157,7 +167,7 @@ function About() {
                     <div className="box1"> </div>
                     <div className="box2"> </div>
 
-                    <h2 id="jump-about" className="head-wrap"> Follow Me! </h2>
+                    <h2 id="jump-med" className="head-wrap"> Follow Me! </h2>
 
                     <div className="about-d">
                         <h3> LinkedIn </h3>
@@ -183,7 +193,10 @@ function About() {
         </div>
 
         <footer>
-            <Link to={'/'}> home </Link>
+            <img src='./images/logo1.png' alt='image displayed here' id='logo-image'/>
+            <Link to={'/'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk' > home </Link>
+            <Link to={'/contact-me'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk'> contact </Link>
+            <Link to={'/portfolio'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk'> portfolio </Link>
         </footer>
     </>
 }
