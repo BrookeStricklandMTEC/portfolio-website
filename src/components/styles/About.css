@@ -4,6 +4,11 @@
     margin: 30px;
 }
 
+p{
+    word-spacing: 1px;
+    font-size: 18px;    
+}
+
 .jump-wrapper{
     display: flex;
     flex-direction: column;
@@ -20,6 +25,11 @@
     display: flex;
     flex-direction: column;
     margin: 5px 5px 25px 5px;
+}
+
+#jump-about{
+    bottom: 15px;
+    right: 115px;
 }
 
 .box1{
@@ -41,12 +51,14 @@
     position:relative; 
 }
 
+.about-d{
+    margin-left: 150px;
+    text-align: center;
+}
 
 .head-wrap{
  z-index: 3;
  position: relative; 
- bottom: 25px;
- right: 145px;
 }
 
 .hea-p-flex{
@@ -60,8 +72,15 @@
     display: flex;
     flex-direction: row-reverse;
     text-align: center;
-    margin-bottom: 200px;
-    
+}
+
+.hea-p-flex-end h3 {
+    margin-top: 100px;
+}
+
+#jump-edu{
+    bottom: 45px;
+    right: 10px;
 }
 
 .box3{
@@ -69,27 +88,24 @@
     height: 100px;
     background-color:#82ac85;
     z-index: 1;
-    left: 150px;
-    position:relative;  
+    bottom:35px;
+    right: 350px;
+    position: relative;  
 }
 
 .box4{
     width: 500px;
     height: 100px;
     background-color: gray;
+    top:15px;
+    right: 250px;
     z-index: 1;
-    top:50px; 
-    left: 45px;
     position:relative; 
 }
 
-.about-d{
-    margin-left: 150px;
+.about-d-2{
     text-align: center;
-}
-
-.about-d2{
-    text-align: center;
+    margin-right: 350px;
 }
 
 h3{
@@ -101,19 +117,49 @@ h6{
     color: gray;
 }
 
-.skills{
-    text-align: right; /* Right-align text */
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
-    color: white; /* White text color */
+/* -------------------Skill Bar---------------- */
+
+.skill-wrapper{
+    margin: 50px 5px 50px 5px;
 }
 
+.skills{
+    height: 14px;
+    border-radius: 3px;
+}
 
+.skill-back{
+    height: 14px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
 
 .javas{
     width: 65%;
     background-color: red;
+    
 }
+.s-css{
+    width: 80%;
+    background-color: blueviolet;
+}
+
+.node{
+    width: 40%;
+    background-color: aqua;
+}
+
+.jquery{
+    width: 60%;
+    background-color: blue;
+}
+
+.react{
+    width: 80%;
+    background-color: chartreuse;
+}
+
+/* -------------------------------------------- */
 
 
 footer{
@@ -133,45 +179,108 @@ footer img {
 
     .wrapper{
         display: flex;
-        flex-direction: row;
-        margin: 15px;
+        flex-direction: column;
+        margin: 5px;
     }
-
+    
+    p{
+        word-spacing: 1px;
+        font-size: 20px;    
+    }
+    
     .jump-wrapper{
         display: flex;
-        flex-direction: column;
-        margin: 15px;
-        gap: 30px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
     }
-
+    
+    .jumper{
+        color: black;
+        text-decoration: none;
+    }
+    
     .container{
         display: flex;
         flex-direction: column;
-        margin: 5px 15px 15px 15px;
+        align-items: center;
     }
-
-    .head-wrap{
-        z-index: 3;
-        position: relative; 
+    
+    #jump-about{
         bottom: 15px;
-        right: 165px;
+        right: 115px;
     }
-       
-
+    
+    .box1{
+        width: 500px;
+        height: 100px;
+        background-color:#82ac85;
+        z-index: 1;
+        left: 150px;
+        position:relative;  
+    }
+    
+    .box2{
+        width: 500px;
+        height: 100px;
+        background-color: gray;
+        z-index: 1;
+        top:50px; 
+        left: 45px;
+        position:relative; 
+    }
+    
+    .about-d{
+        text-align: center;
+    }
+    
+    .head-wrap{
+     z-index: 3;
+     position: relative; 
+    }
+    
     .hea-p-flex{
         display: flex;
         flex-direction: row;
-        margin: 20px 65px 50px 5px
+        text-align: center;
     }
-
+    
     .hea-p-flex-end{
         display: flex;
         flex-direction: row-reverse;
         text-align: center;
     }
     
-    .about-d{
-        margin-left: 20px;
+    .hea-p-flex-end h3 {
+        margin-top: 100px;
+    }
+    
+    #jump-edu{
+        bottom: 45px;
+        right: 10px;
+    }
+    
+    .box3{
+        width: 500px;
+        height: 100px;
+        background-color:#82ac85;
+        z-index: 1;
+        bottom:35px;
+        right: 350px;
+        position: relative;  
+    }
+    
+    .box4{
+        width: 500px;
+        height: 100px;
+        background-color: gray;
+        top:15px;
+        right: 250px;
+        z-index: 1;
+        position:relative; 
+    }
+    
+    .about-d-2{
         text-align: center;
     }
     
@@ -183,4 +292,47 @@ footer img {
         font-size: 20px;
         color: gray;
     }
+    
+    /* -------------------Skill Bar---------------- */
+    
+    .skill-wrapper{
+        margin: 50px 5px 50px 5px;
+    }
+    
+    .skills{
+        height: 14px;
+        border-radius: 3px;
+    }
+    
+    .skill-back{
+        height: 14px;
+        background-color: whitesmoke;
+        border-radius: 3px;
+    }
+    
+    .javas{
+        width: 65%;
+        background-color: red;
+        
+    }
+    .s-css{
+        width: 80%;
+        background-color: blueviolet;
+    }
+    
+    .node{
+        width: 40%;
+        background-color: aqua;
+    }
+    
+    .jquery{
+        width: 60%;
+        background-color: blue;
+    }
+    
+    .react{
+        width: 80%;
+        background-color: chartreuse;
+    }
+    
 }

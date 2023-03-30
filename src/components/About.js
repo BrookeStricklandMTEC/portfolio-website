@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 import './styles/About.css'
 
 function About() {
-
     return <>
 
         <div className="wrapper">
@@ -52,7 +51,7 @@ function About() {
                         </p>
 
                         <p>
-                            I truly think programming has changed me into a much more diligent and hard working person than I was before.
+                            I believe programming has changed me into a much more diligent and hard working person than I was before.
                             Programming has helped me see problems with a logical eye and push me past my comfort zone.
                             I hope to prove to you, viewer, that I am a worthy member of any development team!
                         </p>
@@ -62,8 +61,6 @@ function About() {
                 </div>
 
                 <div className="hea-p-flex-end">
-
-
 
                     <div className="box3"> </div>
                     <div className="box4"> </div>
@@ -85,24 +82,38 @@ function About() {
                         <div className="skill-wrapper">
 
                             <div className="skill-cont">
-                                <div className="skills javas"> 65% </div>
+                                <p> Javascript </p>
+                                <div className="skill-back">
+                                    <div className="skills javas">  </div>
+                                </div>
                             </div>
 
                             <div className="skill-cont">
-                                <div className="skills s-css"> 80% </div>
+                                <p> CSS/SCSS </p>
+                                <div className="skill-back">
+                                    <div className="skills s-css">  </div>
+                                </div>
                             </div>
 
                             <div className="skill-cont">
-                                <div className="skills node"> 50% </div>
+                                <p> Node.js </p>
+                                <div className="skill-back">
+                                    <div className="skills node"> </div>
+                                </div>
                             </div>
 
                             <div className="skill-cont">
-                                <div className="skills jquery"> 70% </div>
-
+                                <p> Jquery </p>
+                                <div className="skill-back">
+                                    <div className="skills jquery">  </div>
+                                </div>
                             </div>
 
                             <div className="skill-cont">
-                                <div className="skills react"> 80% </div>
+                                <p> React </p>
+                                <div className="skill-back">
+                                    <div className="skills react">  </div>
+                                </div>
                             </div>
 
                         </div>
@@ -114,7 +125,7 @@ function About() {
 
                     <h2 id="jump-exp" className="head-wrap"> Experience </h2>
 
-                    <div className="about-d-2">
+                    <div className="about-d-3">
 
                         <p> Below, is a showcase of my work experience over the years. </p>
 
@@ -124,12 +135,17 @@ function About() {
                         <h6> Skill Struck </h6>
                         <h6> January 2022 - May 2022 </h6>
 
-
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            This opportunity was granted to me through Mountainview High School.
+                            In 2021, I had finished my credits early and began searching for a full time job beginning of 2022.
+                            I worked full time at Fluent Solar, part time as a QA, and a part time student at MTECH.
+                        </p>
+                        <p>
+                            The interviewing process was rigorous  and competitive. Luckily, out of 50 applicants, me and four other students were selected.
+                            Everyday, for five months, I would scan code and report errors to their development team.
+                        </p>
+                        <p>
+                            This gave me a first hand experience with programming that I will never forget.
                         </p>
 
 
@@ -140,10 +156,8 @@ function About() {
 
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            This was my first ever full time job at the young age of 17. I was and still am very grateful for the consistency this job gave me.
+                            Everyday, customers would call in needing to troubleshoot their solar system, I was that helping hand for them on a small team of two.
                         </p>
 
                         <h3> Customer Service Representative </h3>
@@ -153,10 +167,10 @@ function About() {
 
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            After leaving Fluent Solar because they couldn't give me the part time hours needed for school,
+                            I found Preventive Pest Control. This small local pest control company has been like a second home for me.
+                            The job is easy, flexible, yet consistent. Perfect for a part time job to help me get through school without worry. The small team of five I work on has been a blessing. We all get along
+                            like friends, and work together as a team like one.
                         </p>
 
                     </div>
@@ -169,7 +183,7 @@ function About() {
 
                     <h2 id="jump-med" className="head-wrap"> Follow Me! </h2>
 
-                    <div className="about-d">
+                    <div className="about-d-4">
                         <h3> LinkedIn </h3>
                         <i> </i>
                         <a href=""> linkedin </a>
@@ -193,7 +207,7 @@ function About() {
         </div>
 
         <footer>
-            <img src='./images/logo1.png' alt='image displayed here' id='logo-image'/>
+            <img src='./images/logo1.png' alt='logo not found' id='logo-image' />
             <Link to={'/'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk' > home </Link>
             <Link to={'/contact-me'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk'> contact </Link>
             <Link to={'/portfolio'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk'> portfolio </Link>
