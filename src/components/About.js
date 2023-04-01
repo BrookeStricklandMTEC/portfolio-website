@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import './styles/About.css'
+import './styles/About.css';
+
 
 function About() {
     return <>
@@ -129,9 +130,8 @@ function About() {
 
                         <p> Below, is a showcase of my work experience over the years. </p>
 
-
+                        <image src='./images/skillstruck.png' className="exp-img" width={'100px'} height={'100px'}/>
                         <h3> Quality Assurance </h3>
-                        <i> </i>
                         <h6> Skill Struck </h6>
                         <h6> January 2022 - May 2022 </h6>
 
@@ -148,9 +148,8 @@ function About() {
                             This gave me a first hand experience with programming that I will never forget.
                         </p>
 
-
+                        <image src='./images/fluentsolar.png' className="exp-img"/>
                         <h3> Technical Support </h3>
-                        <i> </i>
                         <h6> Fluent Solar </h6>
                         <h6> January 2022 - August 2022 </h6>
 
@@ -160,8 +159,8 @@ function About() {
                             Everyday, customers would call in needing to troubleshoot their solar system, I was that helping hand for them on a small team of two.
                         </p>
 
+                        <image src='./images/ppc.png' className="exp-img"/>
                         <h3> Customer Service Representative </h3>
-                        <i> </i>
                         <h6> Preventive Pest Control </h6>
                         <h6> August 2022 - Present </h6>
 
@@ -178,19 +177,17 @@ function About() {
                 </div>
 
                 <div className="hea-p-flex">
-                    <div className="box1"> </div>
-                    <div className="box2"> </div>
+                    <div className="box5"> </div>
+                    <div className="box6"> </div>
 
-                    <h2 id="jump-med" className="head-wrap"> Follow Me! </h2>
+                    <h2 id="jump-med" className="head-wrap"> Media  </h2>
 
                     <div className="about-d-4">
+                        <h3> follow me! </h3>
                         <h3> LinkedIn </h3>
-                        <i> </i>
-                        <a href=""> linkedin </a>
-
+                        <img src="./images/linked.png" className="med-img"/>
                         <h3> GitHub </h3>
-                        <i> </i>
-                        <a href=""> github </a>
+                        <img src="./images/linked.png" className="med-img"/>
 
                         <h3> Other? </h3>
                         <i> </i>
