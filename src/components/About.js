@@ -8,57 +8,58 @@ function About() {
 
         <div className="wrapper">
 
-            <div className="jump-wrapper">
-
-                <a href="#jump-about" className="jumper"> 1 </a>
-                <a href="#jump-edu" className="jumper">  2</a>
-                <a href="#jump-exp" className="jumper"> 3 </a>
-                <a href="#jump-med" className="jumper"> 4 </a>
-
-            </div>
-
             <div className="container">
                 {/* flex center wont work, get help to try to center heap-p-flex */}
 
-                <div className="hea-p-flex">
-                    <div className="box1"> </div>
-                    <div className="box2"> </div>
+                <div className="jumper2">
+                    <div className="jump-wrapper">
 
-                    <h2 id="jump-about" className="head-wrap"> About Me </h2>
-
-                    <div className="about-d">
-                        <h3> Brooke strickland </h3>
-                        <h6> Web Developer </h6>
-
-                        <p>
-                            Hello there, my name is Brooke Strickland (as you've probably seen).
-
-                            I started programming at the young age of 13, I was the only female in my game development class at Lakeridge Junior High in Orem Utah, my hometown.
-                            Game Developement has always been such a cool concept to me. Although, I was more interested in the animation and looks of games at the time.
-                        </p>
-
-                        <p>
-                            Fast-forward four years, I learned just about everything the game-development course had to offer.
-                            Junior year of high school, my parents told me to check out Mountain View High School's Programming and Development class.
-                        </p>
-
-                        <p>
-                            First day of my programming and development class changed just about everthing!
-                            From there, my instructor saw my potential and said I should check out Mountainland Technical College's Web Development Program!
-
-                            After taking MTECH's introduction course at the same time as working for Skill Struck as a QA, I truly fell in love with Web Development and everything it has to offer!
-
-                            I adore web developing and problem solving, and I truly want to expand my knowledge of programming, so I can make cooler things to show off!
-                        </p>
-
-                        <p>
-                            I believe programming has changed me into a much more diligent and hard working person than I was before.
-                            Programming has helped me see problems with a logical eye and push me past my comfort zone.
-                            I hope to prove to you, viewer, that I am a worthy member of any development team!
-                        </p>
+                        <a href="#jump-about" className="jumper"> 1 </a>
+                        <a href="#jump-edu" className="jumper">  2</a>
+                        <a href="#jump-exp" className="jumper"> 3 </a>
+                        <a href="#jump-med" className="jumper"> 4 </a>
 
                     </div>
+                    <div className="hea-p-flex">
+                        <div className="box1"> </div>
+                        <div className="box2"> </div>
 
+                        <h2 id="jump-about" className="head-wrap"> About Me </h2>
+
+                        <div className="about-d">
+                            <h3> Brooke strickland </h3>
+                            <h6> Web Developer </h6>
+
+                            <p>
+                                Hello there, my name is Brooke Strickland (as you've probably seen).
+
+                                I started programming at the young age of 13, I was the only female in my game development class at Lakeridge Junior High in Orem Utah, my hometown.
+                                Game Developement has always been such a cool concept to me. Although, I was more interested in the animation and looks of games at the time.
+                            </p>
+
+                            <p>
+                                Fast-forward four years, I learned just about everything the game-development course had to offer.
+                                Junior year of high school, my parents told me to check out Mountain View High School's Programming and Development class.
+                            </p>
+
+                            <p>
+                                First day of my programming and development class changed just about everthing!
+                                From there, my instructor saw my potential and said I should check out Mountainland Technical College's Web Development Program!
+
+                                After taking MTECH's introduction course at the same time as working for Skill Struck as a QA, I truly fell in love with Web Development and everything it has to offer!
+
+                                I adore web developing and problem solving, and I truly want to expand my knowledge of programming, so I can make cooler things to show off!
+                            </p>
+
+                            <p>
+                                I believe programming has changed me into a much more diligent and hard working person than I was before.
+                                Programming has helped me see problems with a logical eye and push me past my comfort zone.
+                                I hope to prove to you, viewer, that I am a worthy member of any development team!
+                            </p>
+
+                        </div>
+
+                    </div>
                 </div>
 
                 <div className="hea-p-flex-end">
@@ -130,7 +131,7 @@ function About() {
 
                         <p> Below, is a showcase of my work experience over the years. </p>
 
-                        <image src='./images/skillstruck.png' className="exp-img" width={'100px'} height={'100px'}/>
+                        <image src='./images/skillstruck.png' className="exp-img" width={'100px'} height={'100px'} />
                         <h3> Quality Assurance </h3>
                         <h6> Skill Struck </h6>
                         <h6> January 2022 - May 2022 </h6>
@@ -148,7 +149,7 @@ function About() {
                             This gave me a first hand experience with programming that I will never forget.
                         </p>
 
-                        <image src='./images/fluentsolar.png' className="exp-img"/>
+                        <image src='./images/fluentsolar.png' className="exp-img" />
                         <h3> Technical Support </h3>
                         <h6> Fluent Solar </h6>
                         <h6> January 2022 - August 2022 </h6>
@@ -159,7 +160,7 @@ function About() {
                             Everyday, customers would call in needing to troubleshoot their solar system, I was that helping hand for them on a small team of two.
                         </p>
 
-                        <image src='./images/ppc.png' className="exp-img"/>
+                        <image src='./images/ppc.png' className="exp-img" />
                         <h3> Customer Service Representative </h3>
                         <h6> Preventive Pest Control </h6>
                         <h6> August 2022 - Present </h6>
@@ -185,9 +186,9 @@ function About() {
                     <div className="about-d-4">
                         <h3> follow me! </h3>
                         <h3> LinkedIn </h3>
-                        <img src="./images/linked.png" className="med-img"/>
+                        <img src="./images/linked.png" className="med-img" />
                         <h3> GitHub </h3>
-                        <img src="./images/linked.png" className="med-img"/>
+                        <img src="./images/linked.png" className="med-img" />
 
                         <h3> Other? </h3>
                         <i> </i>
