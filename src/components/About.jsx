@@ -5,26 +5,22 @@ import './styles/About.css';
 
 function About() {
     return <>
-
-        <div className="wrapper">
-
-            <div className="jump-wrapper">
-
-                <a href="#jump-about" className="jumper"> 1 </a>
-                <a href="#jump-edu" className="jumper">  2</a>
-                <a href="#jump-exp" className="jumper"> 3 </a>
-                <a href="#jump-med" className="jumper"> 4 </a>
-
-            </div>
-
+            <div className="wrapper">
+                <aside className="jump-wrapper">
+                    <a href="#jump-about" className="jumper"> 1 </a>
+                    <a href="#jump-edu" className="jumper">  2</a>
+                    <a href="#jump-exp" className="jumper"> 3 </a>
+                    <a href="#jump-med" className="jumper"> 4 </a>
+                </aside>
             <div className="container">
                 {/* flex center wont work, get help to try to center heap-p-flex */}
 
                 <div className="hea-p-flex">
-                    <div className="box1"> </div>
-                    <div className="box2"> </div>
-
-                    <h2 id="jump-about" className="head-wrap"> About Me </h2>
+                    <div className="aboutMeLogoContainer">
+                        <h2 id="jump-about" className="head-wrap"> About Me </h2>
+                        <div className="box1"/> 
+                        <div className="box2"/> 
+                    </div>
 
                     <div className="about-d">
                         <h3> Brooke strickland </h3>
