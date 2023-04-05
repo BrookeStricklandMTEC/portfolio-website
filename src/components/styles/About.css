@@ -1,378 +1,392 @@
 .wrapper {
-    margin: 30px;
+	display: flex;
+    height: 100%;
+}
+.container {
+    align-self: flex-end;
+    position: relative;
+	display: flex;
+	flex-direction: column;
+    padding: 8px;
+    width: calc(100% - 66px);
+    margin: 0 0 0 50px;
 }
 
 p {
-    word-spacing: 1px;
-    font-size: 18px;
+	word-spacing: 1px;
+	font-size: 18px;
 }
 
-.jumper2{
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
+.jump-wrapper {
+    flex: 1 0 10%;
+    position: fixed;
+	display: flex;
+    height: 100%;
+    background-color: #82ac85;
+    justify-content: space-evenly;
+    margin: 0;
+    align-items: center;
+	flex-direction: column;
+    width: 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .jumper {
-    color: black;
-    text-decoration: none;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    margin: 5px 5px 25px 5px;
+	color: black;
+	text-decoration: none;
 }
 
 #jump-about {
-    bottom: 15px;
-    right: 115px;
+    position: absolute;
+	top: 20px;
+	left: 100px;
+}
+
+.aboutLogoMeContainer{
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
 
 .box1 {
-    width: 500px;
-    height: 100px;
-    background-color: #82ac85;
-    z-index: 1;
-    left: 150px;
-    position: relative;
+    position: absolute;
+	width: 120px;
+	height: 100px;
+	background-color: #82ac85;
+	z-index: 1;
+	left: 70px;
 }
 
 .box2 {
-    width: 500px;
-    height: 100px;
-    background-color: gray;
-    z-index: 1;
-    top: 50px;
-    left: 45px;
-    position: relative;
+	position: absolute;
+	width: 120px;
+	height: 100px;
+	background-color: gray;
+	z-index: 1;
+	top: 70px;
+	left: 125px;
 }
 
 .about-d {
-    margin-left: 150px;
-    text-align: center;
+	text-align: center;
 }
 
 .head-wrap {
-    z-index: 3;
-    position: relative;
+	z-index: 3;
+	position: relative;
 }
 
 .hea-p-flex {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin: 50px 150px 200px 0px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: 30px 15px 30px 15px;
 }
 
 .hea-p-flex-end {
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: center;
-    margin: 0px 0px 0px 150px;
-}
-
-.hea-p-flex-end h3 {
-    margin-top: 100px;
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: center;
+	margin: 30px 15px 30px 15px
 }
 
 #jump-edu {
-    bottom: 45px;
-    right: 10px;
+	right: 60px;
+	bottom:	14.063rem;
 }
 
 .box3 {
-    width: 500px;
-    height: 100px;
-    background-color: #82ac85;
-    z-index: 1;
-    bottom: 35px;
-    right: 350px;
-    position: relative;
+	width: 120px;
+	height: 110px;
+	background-color: #82ac85;
+	z-index: 1;
+	position: relative;
+	top: 10px;
+	bottom: 35px;
 }
 
 .box4 {
-    width: 500px;
-    height: 100px;
-    background-color: gray;
-    top: 15px;
-    right: 250px;
-    z-index: 1;
-    position: relative;
+	width: 120px;
+	height: 110px;
+	background-color: gray;
+	z-index: 2;
+	position: relative;
+	bottom: 65px;
+	right: 70px;
 }
 
 .about-d-2 {
-    text-align: center;
-    margin-right: 350px;
+	text-align: center;
 }
 
 h3 {
-    font-size: 23px;
+	font-size: 23px;
 }
 
 h6 {
-    font-size: 20px;
-    color: gray;
+	font-size: 20px;
+	color: gray;
 }
 
 .exp-img {
-    border: 5px solid gray;
+	border: 5px solid gray;
+	display: flex;
+	width: 100px;
+	height: 100px;
 }
 
-.box5 {
-    width: 150px;
-    height: 100px;
-    background-color: #82ac85;
-    z-index: 1;
-    left: 80px;
-    position: relative;
+.about-d-3 h3 {
+	margin-top: 50px;
 }
 
-.box6 {
-    width: 150px;
-    height: 100px;
-    background-color: gray;
-    z-index: 2;
-    top: 35px;
-    position: relative;
+#jump-exp{
+	right: 60px;
+	bottom:	14.063rem;
 }
 
 #jump-med {
-    bottom: 15px;
-    right: 235px;
+	bottom: 15px;
+	left: .5px;
 }
 
-.med-img{
-    width: 50px;
-    height: 50px;
+.box5{
+	position: absolute;
+	width: 120px;
+	height: 100px;
+	background-color: gray;
+	z-index: 1;
+	bottom: 19.688rem;
+}
+
+.med-img {
+	width: 80px;
+	height: 50px;
 }
 
 .about-d-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0px 0px 30px 450px
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 300px; 
+}
+.media-div{
+	display: flex;
+	justify-content: center;
 }
 
 /* -------------------Skill Bar---------------- */
 
 .skill-wrapper {
-    margin: 50px 5px 50px 5px;
+	margin: 50px 5px 50px 5px;
 }
 
 .skills {
-    height: 14px;
-    border-radius: 3px;
+	height: 14px;
+	border-radius: 3px;
 }
 
 .skill-back {
-    height: 14px;
-    background-color: whitesmoke;
-    border-radius: 3px;
+	height: 14px;
+	background-color: whitesmoke;
+	border-radius: 3px;
 }
 
 .javas {
-    width: 65%;
-    background-color: red;
-
+	width: 65%;
+	background-color: red;
 }
 
 .s-css {
-    width: 80%;
-    background-color: blueviolet;
+	width: 80%;
+	background-color: blueviolet;
 }
 
 .node {
-    width: 40%;
-    background-color: aqua;
+	width: 40%;
+	background-color: aqua;
 }
 
 .jquery {
-    width: 60%;
-    background-color: blue;
+	width: 60%;
+	background-color: blue;
 }
 
 .react {
-    width: 80%;
-    background-color: chartreuse;
+	width: 80%;
+	background-color: chartreuse;
 }
-
-
 
 /* -------------------------------------------- */
 
-
 footer {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 footer img {
-    margin-top: 15px;
+	margin: 15px 0px 0px 40px;
 }
 
 .foot-lnk {
-    margin: 50px 100px 0px 5px;
+	margin: 50px 100px 0px 5px;
 }
 
 @media only screen and (max-width: 600px) {
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		margin: 5px;
+	}
 
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-        margin: 5px;
-    }
+	p {
+		word-spacing: 1px;
+		font-size: 20px;
+	}
 
-    p {
-        word-spacing: 1px;
-        font-size: 20px;
-    }
+	.jump-wrapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 100px;
+	}
 
-    .jump-wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 100px;
-    }
+	.jumper {
+		color: black;
+		text-decoration: none;
+	}
 
-    .jumper {
-        color: black;
-        text-decoration: none;
-    }
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+	#jump-about {
+		bottom: 15px;
+		right: 115px;
+	}
 
-    #jump-about {
-        bottom: 15px;
-        right: 115px;
-    }
+	.box1 {
+		width: 500px;
+		height: 100px;
+		background-color: #82ac85;
+		z-index: 1;
+		left: 150px;
+		position: relative;
+	}
 
-    .box1 {
-        width: 500px;
-        height: 100px;
-        background-color: #82ac85;
-        z-index: 1;
-        left: 150px;
-        position: relative;
-    }
+	.box2 {
+		width: 500px;
+		height: 100px;
+		background-color: gray;
+		z-index: 1;
+		top: 50px;
+		left: 45px;
+		position: relative;
+	}
 
-    .box2 {
-        width: 500px;
-        height: 100px;
-        background-color: gray;
-        z-index: 1;
-        top: 50px;
-        left: 45px;
-        position: relative;
-    }
+	.about-d {
+		text-align: center;
+	}
 
-    .about-d {
-        text-align: center;
-    }
+	.head-wrap {
+		z-index: 3;
+		position: relative;
+	}
 
-    .head-wrap {
-        z-index: 3;
-        position: relative;
-    }
+	.hea-p-flex {
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+	}
 
-    .hea-p-flex {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-    }
+	.hea-p-flex-end {
+		display: flex;
+		flex-direction: row-reverse;
+		text-align: center;
+	}
 
-    .hea-p-flex-end {
-        display: flex;
-        flex-direction: row-reverse;
-        text-align: center;
-    }
+	.hea-p-flex-end h3 {
+		margin-top: 100px;
+	}
 
-    .hea-p-flex-end h3 {
-        margin-top: 100px;
-    }
+	#jump-edu {
+		bottom: 45px;
+		right: 10px;
+	}
 
-    #jump-edu {
-        bottom: 45px;
-        right: 10px;
-    }
+	.box3 {
+		width: 500px;
+		height: 100px;
+		background-color: #82ac85;
+		z-index: 1;
+		bottom: 35px;
+		right: 350px;
+		position: relative;
+	}
 
-    .box3 {
-        width: 500px;
-        height: 100px;
-        background-color: #82ac85;
-        z-index: 1;
-        bottom: 35px;
-        right: 350px;
-        position: relative;
-    }
+	.box4 {
+		width: 500px;
+		height: 100px;
+		background-color: gray;
+		top: 15px;
+		right: 250px;
+		z-index: 1;
+		position: relative;
+	}
 
-    .box4 {
-        width: 500px;
-        height: 100px;
-        background-color: gray;
-        top: 15px;
-        right: 250px;
-        z-index: 1;
-        position: relative;
-    }
+	.about-d-2 {
+		text-align: center;
+	}
 
-    .about-d-2 {
-        text-align: center;
-    }
+	h3 {
+		font-size: 23px;
+	}
 
-    h3 {
-        font-size: 23px;
-    }
+	h6 {
+		font-size: 20px;
+		color: gray;
+	}
 
-    h6 {
-        font-size: 20px;
-        color: gray;
-    }
+	/* -------------------Skill Bar---------------- */
 
-    /* -------------------Skill Bar---------------- */
+	.skill-wrapper {
+		margin: 50px 5px 50px 5px;
+	}
 
-    .skill-wrapper {
-        margin: 50px 5px 50px 5px;
-    }
+	.skills {
+		height: 14px;
+		border-radius: 3px;
+	}
 
-    .skills {
-        height: 14px;
-        border-radius: 3px;
-    }
+	.skill-back {
+		height: 14px;
+		background-color: whitesmoke;
+		border-radius: 3px;
+	}
 
-    .skill-back {
-        height: 14px;
-        background-color: whitesmoke;
-        border-radius: 3px;
-    }
+	.javas {
+		width: 65%;
+		background-color: red;
+	}
 
-    .javas {
-        width: 65%;
-        background-color: red;
-    }
+	.s-css {
+		width: 80%;
+		background-color: blueviolet;
+	}
 
-    .s-css {
-        width: 80%;
-        background-color: blueviolet;
-    }
+	.node {
+		width: 40%;
+		background-color: aqua;
+	}
 
-    .node {
-        width: 40%;
-        background-color: aqua;
-    }
+	.jquery {
+		width: 60%;
+		background-color: blue;
+	}
 
-    .jquery {
-        width: 60%;
-        background-color: blue;
-    }
-
-    .react {
-        width: 80%;
-        background-color: chartreuse;
-    }
-
+	.react {
+		width: 80%;
+		background-color: chartreuse;
+	}
 }
