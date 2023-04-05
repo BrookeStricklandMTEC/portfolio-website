@@ -54,46 +54,6 @@ function About() {
                         </p>
 
                     </div>
-                    <div className="hea-p-flex">
-                        <div className="box1"> </div>
-                        <div className="box2"> </div>
-
-                        <h2 id="jump-about" className="head-wrap"> About Me </h2>
-
-                        <div className="about-d">
-                            <h3> Brooke strickland </h3>
-                            <h6> Web Developer </h6>
-
-                            <p>
-                                Hello there, my name is Brooke Strickland (as you've probably seen).
-
-                                I started programming at the young age of 13, I was the only female in my game development class at Lakeridge Junior High in Orem Utah, my hometown.
-                                Game Developement has always been such a cool concept to me. Although, I was more interested in the animation and looks of games at the time.
-                            </p>
-
-                            <p>
-                                Fast-forward four years, I learned just about everything the game-development course had to offer.
-                                Junior year of high school, my parents told me to check out Mountain View High School's Programming and Development class.
-                            </p>
-
-                            <p>
-                                First day of my programming and development class changed just about everthing!
-                                From there, my instructor saw my potential and said I should check out Mountainland Technical College's Web Development Program!
-
-                                After taking MTECH's introduction course at the same time as working for Skill Struck as a QA, I truly fell in love with Web Development and everything it has to offer!
-
-                                I adore web developing and problem solving, and I truly want to expand my knowledge of programming, so I can make cooler things to show off!
-                            </p>
-
-                            <p>
-                                I believe programming has changed me into a much more diligent and hard working person than I was before.
-                                Programming has helped me see problems with a logical eye and push me past my comfort zone.
-                                I hope to prove to you, viewer, that I am a worthy member of any development team!
-                            </p>
-
-                        </div>
-
-                    </div>
                 </div>
 
                 <div className="hea-p-flex-end">
