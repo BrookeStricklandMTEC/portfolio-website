@@ -5,21 +5,21 @@ import './styles/About.css';
 
 function About() {
     return <>
-            <div className="wrapper">
-                <aside className="jump-wrapper">
-                    <a href="#jump-about" className="jumper"> 1 </a>
-                    <a href="#jump-edu" className="jumper">  2</a>
-                    <a href="#jump-exp" className="jumper"> 3 </a>
-                    <a href="#jump-med" className="jumper"> 4 </a>
-                </aside>
+        <div className="wrapper">
+            <aside className="jump-wrapper">
+                <a href="#jump-about" className="jumper"> 1 </a>
+                <a href="#jump-edu" className="jumper">  2</a>
+                <a href="#jump-exp" className="jumper"> 3 </a>
+                <a href="#jump-med" className="jumper"> 4 </a>
+            </aside>
             <div className="container">
                 {/* flex center wont work, get help to try to center heap-p-flex */}
 
                 <div className="hea-p-flex">
-                    <div className="aboutMeLogoContainer">
+                    <div className="logo-container">
                         <h2 id="jump-about" className="head-wrap"> About Me </h2>
-                        <div className="box1"/> 
-                        <div className="box2"/> 
+                        <div className="box1" />
+                        <div className="box2" />
                     </div>
 
                     <div className="about-d">
@@ -59,10 +59,11 @@ function About() {
 
                 <div className="hea-p-flex-end">
 
+                <div className="logo-container">
                     <div className="box3"> </div>
                     <div className="box4"> </div>
-
                     <h2 id="jump-edu" className="head-wrap"> Education </h2>
+                </div> 
 
                     <div className="about-d-2">
                         <i> </i>
@@ -73,7 +74,7 @@ function About() {
                             Mountainland Technical College has provided me a great opportunity to reach out and find a company willing to take me in as a Web Developement Intern.
                             I am hoping to find this opportunity to grow within the company and expand my skillsket to continue on with them even after the internship is over!
 
-                            Below, are some of the many programming languages and skills I developed and improved during my time with MTECH.
+                            Below, are some of the many programming languages and skills I developed and improved on during my time with MTECH.
                         </p>
 
                         <div className="skill-wrapper">
@@ -100,7 +101,7 @@ function About() {
                             </div>
 
                             <div className="skill-cont">
-                                <p> Jquery </p>
+                                <p> Angular </p>
                                 <div className="skill-back">
                                     <div className="skills jquery">  </div>
                                 </div>
@@ -120,14 +121,19 @@ function About() {
 
                 <div className="hea-p-flex-end">
 
+
+                <div className="logo-container">
+                    <div className="box3"> </div>
+                    <div className="box4"> </div>
                     <h2 id="jump-exp" className="head-wrap"> Experience </h2>
+
+                </div>
 
                     <div className="about-d-3">
 
-                        <p> Below, is a showcase of my work experience over the years. </p>
 
-                        <image src='./images/skillstruck.png' className="exp-img" width={'100px'} height={'100px'}/>
                         <h3> Quality Assurance </h3>
+                        <image src='./images/skillstruck.png' className="exp-img" width={'100px'} height={'100px'} />
                         <h6> Skill Struck </h6>
                         <h6> January 2022 - May 2022 </h6>
 
@@ -144,8 +150,8 @@ function About() {
                             This gave me a first hand experience with programming that I will never forget.
                         </p>
 
-                        <image src='./images/fluentsolar.png' className="exp-img"/>
                         <h3> Technical Support </h3>
+                        <image src='./images/fluentsolar.png' className="exp-img" />
                         <h6> Fluent Solar </h6>
                         <h6> January 2022 - August 2022 </h6>
 
@@ -155,8 +161,8 @@ function About() {
                             Everyday, customers would call in needing to troubleshoot their solar system, I was that helping hand for them on a small team of two.
                         </p>
 
-                        <image src='./images/ppc.png' className="exp-img"/>
                         <h3> Customer Service Representative </h3>
+                        <image src='./images/ppc.png' className="exp-img" />
                         <h6> Preventive Pest Control </h6>
                         <h6> August 2022 - Present </h6>
 
@@ -172,18 +178,20 @@ function About() {
 
                 </div>
 
-                <div className="hea-p-flex">
-                    <div className="box5"> </div>
-                    <div className="box6"> </div>
+                <div className="hea-p-flex media-div">
 
+                <div className="logo-container">
+                    <div className="box1"> </div>
+                    <div className="box5"> </div>
                     <h2 id="jump-med" className="head-wrap"> Media  </h2>
+                </div>
 
                     <div className="about-d-4">
                         <h3> follow me! </h3>
                         <h3> LinkedIn </h3>
-                        <img src="./images/linked.png" className="med-img"/>
+                        <img src="./images/linked.png" className="med-img" />
                         <h3> GitHub </h3>
-                        <img src="./images/linked.png" className="med-img"/>
+                        <img src="./images/linked.png" className="med-img" />
 
                         <h3> Other? </h3>
                         <i> </i>
@@ -207,4 +215,5 @@ function About() {
         </footer>
     </>
 }
-export default About
+
+export default About;

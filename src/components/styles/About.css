@@ -22,7 +22,7 @@ p {
     position: fixed;
 	display: flex;
     height: 100%;
-    background-color: #a9c7ac;
+    background-color: #82ac85;
     justify-content: space-evenly;
     margin: 0;
     align-items: center;
@@ -38,9 +38,8 @@ p {
 
 #jump-about {
     position: absolute;
-	bottom: 15px;
-	right: 115px;
-    z-index: 1;
+	top: 20px;
+	left: 100px;
 }
 
 .aboutLogoMeContainer{
@@ -48,14 +47,14 @@ p {
     width: 200px;
     height: 200px;
 }
+
 .box1 {
     position: absolute;
-	width: 100px;
+	width: 120px;
 	height: 100px;
 	background-color: #82ac85;
 	z-index: 1;
-	left: 150px;
-    
+	left: 70px;
 }
 
 .box2 {
@@ -64,8 +63,8 @@ p {
 	height: 100px;
 	background-color: gray;
 	z-index: 1;
-	top: 50px;
-	left: 45px;
+	top: 70px;
+	left: 125px;
 }
 
 .about-d {
@@ -81,48 +80,43 @@ p {
 	display: flex;
 	flex-direction: row;
 	text-align: center;
-	/* margin: 50px 150px 200px 0px; */
+	margin: 30px 15px 30px 15px;
 }
 
 .hea-p-flex-end {
 	display: flex;
 	flex-direction: row-reverse;
 	text-align: center;
-	margin: 0px 0px 0px 150px;
-}
-
-.hea-p-flex-end h3 {
-	margin-top: 100px;
+	margin: 30px 15px 30px 15px
 }
 
 #jump-edu {
-	bottom: 45px;
-	right: 10px;
+	right: 60px;
+	bottom:	14.063rem;
 }
 
 .box3 {
-	width: 500px;
-	height: 100px;
+	width: 120px;
+	height: 110px;
 	background-color: #82ac85;
 	z-index: 1;
-	bottom: 35px;
-	right: 350px;
 	position: relative;
+	top: 10px;
+	bottom: 35px;
 }
 
 .box4 {
-	width: 500px;
-	height: 100px;
+	width: 120px;
+	height: 110px;
 	background-color: gray;
-	top: 15px;
-	right: 250px;
-	z-index: 1;
+	z-index: 2;
 	position: relative;
+	bottom: 65px;
+	right: 70px;
 }
 
 .about-d-2 {
 	text-align: center;
-	margin-right: 350px;
 }
 
 h3 {
@@ -136,42 +130,49 @@ h6 {
 
 .exp-img {
 	border: 5px solid gray;
+	display: flex;
+	width: 100px;
+	height: 100px;
 }
 
-.box5 {
-	width: 150px;
-	height: 100px;
-	background-color: #82ac85;
-	z-index: 1;
-	left: 80px;
-	position: relative;
+.about-d-3 h3 {
+	margin-top: 50px;
 }
 
-.box6 {
-	width: 150px;
-	height: 100px;
-	background-color: gray;
-	z-index: 2;
-	top: 35px;
-	position: relative;
+#jump-exp{
+	right: 60px;
+	bottom:	14.063rem;
 }
 
 #jump-med {
 	bottom: 15px;
-	right: 235px;
+	left: .5px;
+}
+
+.box5{
+	position: absolute;
+	width: 120px;
+	height: 100px;
+	background-color: gray;
+	z-index: 1;
+	bottom: 19.688rem;
 }
 
 .med-img {
-    align-self: 1/1;
-	width: 50px;
+	width: 80px;
 	height: 50px;
 }
 
 .about-d-4 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
- }
+	margin-left: 300px; 
+}
+.media-div{
+	display: flex;
+	justify-content: center;
+}
 
 /* -------------------Skill Bar---------------- */
 
@@ -223,7 +224,7 @@ footer {
 }
 
 footer img {
-	margin-top: 15px;
+	margin: 15px 0px 0px 40px;
 }
 
 .foot-lnk {
