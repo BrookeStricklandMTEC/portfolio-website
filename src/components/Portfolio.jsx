@@ -1,14 +1,10 @@
 import React from "react"
-import { Link } from "react-router-dom"
 import './styles/About.css'
+import FlippableCard from './card/flippable-card'
 
 function Portfolio() {
     return<> 
-    
-        <p> portfolio works!</p>
-
+        <FlippableCard> </FlippableCard> 
     </>
-
-
 }
 export default Portfolio
