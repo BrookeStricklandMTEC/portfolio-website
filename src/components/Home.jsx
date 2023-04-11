@@ -4,7 +4,7 @@ import './styles/Home.css';
 
 function Home() {
 
-    const urls = ["./images/example1.webp", "./images/example3.jpg", "./images/example4.webp", "./images/example5.jpg", './images/example6.jpg'];
+    const urls = ["./images/brooke1.JPG", "./images/brooke2.JPG", "./images/brooke3.JPG", "./images/brooke4.png", './images/brooke5.JPG'];
     const [index, disbatchCycle] = React.useReducer((state,a) => {
         return (state + 1 ) % urls.length;
     }, 0);

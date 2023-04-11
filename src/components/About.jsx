@@ -206,6 +206,8 @@ function About() {
 
         </div>
 
+        <a href="./images/Brooke Strickland Resume 2023.pdf" download="brooke-strickland"> Download my Resume </a> 
+
         <footer>
             <img src='./images/logo1.png' alt='logo not found' id='logo-image' />
             <Link to={'/'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk' > home </Link>
