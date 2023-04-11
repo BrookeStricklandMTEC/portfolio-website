@@ -7,7 +7,7 @@ function FlippableCard() {
     const [showFront, setShowFront] = useState(true);
     return<>
 
-    <div className='card-row1'> 
+    <div className='card'> 
         <div className="flippable-card-container">
             <CSSTransition
                 in={showFront}
@@ -16,11 +16,12 @@ function FlippableCard() {
             >
                 <Card onClick={() => {
                     setShowFront((v) => !v);
+                    // ? 
                 }}/>
             </CSSTransition>
-        </div>
+    </div>
 
-        <div className="flippable-card-container">
+        {/* <div className="flippable-card-container">
             <CSSTransition
                 in={showFront}
                 timeout={300}
@@ -58,8 +59,8 @@ function FlippableCard() {
                     setShowFront((v) => !v);
                 }}/>
             </CSSTransition>
-        </div>
-    </div> 
+        </div>*/}
+    </div>  
     
 </>
 }

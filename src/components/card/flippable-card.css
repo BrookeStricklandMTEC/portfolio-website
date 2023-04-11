@@ -3,18 +3,3 @@
     width: 300px;
     perspective: 1000px;
 }
-
-.card-row1{
-    display: flex;
-    justify-content: space-around;
-
-    margin: 100px 5px 100px 5px;
-}
-
-.card-row2{
-    display: flex;
-    justify-content: space-around;
-
-    margin: 100px 5px 100px 5px;
-
-}

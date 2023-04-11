@@ -3,6 +3,10 @@ import { Link } from "react-router-dom"
 import './styles/About.css';
 
 
+function Linkedin() { window.open('https://www.linkedin.com/in/brooke-strickland-b7543322a/', '_blank'); }
+
+function Github() { window.open('https://github.com/BrookeStricklandMTEC', '_blank'); }
+
 function About() {
     return <>
         <div className="wrapper">
@@ -58,11 +62,11 @@ function About() {
 
                 <div className="hea-p-flex-end">
 
-                <div className="logo-container">
-                    <div className="box3"> </div>
-                    <div className="box4"> </div>
-                    <h2 id="jump-edu" className="head-wrap"> Education </h2>
-                </div> 
+                    <div className="logo-container">
+                        <div className="box3"> </div>
+                        <div className="box4"> </div>
+                        <h2 id="jump-edu" className="head-wrap"> Education </h2>
+                    </div>
 
                     <div className="about-d-2">
                         <i> </i>
@@ -118,21 +122,31 @@ function About() {
 
                 </div>
 
+
+                    <div className="recom-wrap"> 
+
+                        <div className="recom-card"> </div>
+                        <div className="recom-card"> </div>
+                        <div className="recom-card"> </div>
+
+                    </div>
+                    
+
                 <div className="hea-p-flex-end">
 
 
-                <div className="logo-container">
-                    <div className="box3"> </div>
-                    <div className="box4"> </div>
-                    <h2 id="jump-exp" className="head-wrap"> Experience </h2>
+                    <div className="logo-container">
+                        <div className="box3"> </div>
+                        <div className="box4"> </div>
+                        <h2 id="jump-exp" className="head-wrap"> Experience </h2>
 
-                </div>
+                    </div>
 
                     <div className="about-d-3">
-
-
                         <h3> Quality Assurance </h3>
-                        <image src='./images/skillstruck.png' className="exp-img" width={'100px'} height={'100px'} />
+                        <div className="exp-img-wrap">
+                            <image src='./images/skillstruck.png' className="exp-img" />
+                        </div>
                         <h6> Skill Struck </h6>
                         <h6> January 2022 - May 2022 </h6>
 
@@ -150,7 +164,9 @@ function About() {
                         </p>
 
                         <h3> Technical Support </h3>
-                        <image src='./images/fluentsolar.png' className="exp-img" />
+                        <div className="exp-img-wrap">
+                            <image src='./images/fluentsolar.png' className="exp-img" alt='image-here' />
+                        </div>
                         <h6> Fluent Solar </h6>
                         <h6> January 2022 - August 2022 </h6>
 
@@ -161,7 +177,9 @@ function About() {
                         </p>
 
                         <h3> Customer Service Representative </h3>
-                        <image src='./images/ppc.png' className="exp-img" />
+                        <div className="exp-img-wrap">
+                            <image src='./images/ppc.png' className="exp-img" />
+                        </div>
                         <h6> Preventive Pest Control </h6>
                         <h6> August 2022 - Present </h6>
 
@@ -179,23 +197,18 @@ function About() {
 
                 <div className="hea-p-flex media-div">
 
-                <div className="logo-container">
-                    <div className="box1"> </div>
-                    <div className="box5"> </div>
-                    <h2 id="jump-med" className="head-wrap"> Media  </h2>
-                </div>
+                    <div className="logo-container">
+                        <div className="box1"> </div>
+                        <div className="box5"> </div>
+                        <h2 id="jump-med" className="head-wrap"> Media  </h2>
+                    </div>
 
                     <div className="about-d-4">
                         <h3> follow me! </h3>
-                        <h3> LinkedIn </h3>
-                        <img src="./images/linked.png" className="med-img" />
-                        <h3> GitHub </h3>
-                        <img src="./images/linked.png" className="med-img" />
-
-                        <h3> Other? </h3>
-                        <i> </i>
-                        <a href=""> linkedin </a>
-
+                        <div className="med-icon">
+                            <img src="./images/linkedin.png" className="med-img" onClick={Linkedin} />
+                            <img src="./images/github.png" className="med-img" onClick={Github} />
+                        </div>
                     </div>
 
                 </div>
@@ -206,7 +219,12 @@ function About() {
 
         </div>
 
-        <a href="./images/Brooke Strickland Resume 2023.pdf" download="brooke-strickland"> Download my Resume </a> 
+        <div className="download-wrap">
+            <a download="BrookeStricklandResume.pdf" href="./images/Brooke Strickland Resume 2023.pdf" title="BrookeStricklandResume">
+                <img alt="🔽" src="./images/download.png" className="med-img" />
+            </a>
+        </div>
+        <p className="download-txt"> Download Brookes Resume </p>
 
         <footer>
             <img src='./images/logo1.png' alt='logo not found' id='logo-image' />

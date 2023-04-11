@@ -7,7 +7,6 @@ import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import "@lottiefiles/lottie-player";
 
-
 function App() {
 
   const [loading, setLoading] = useState(false);
@@ -36,13 +35,13 @@ function App() {
           </div>
           ) : (
 
-          <Routes>
-            <Route path='/' element={<Home> </Home>} > </Route>
-            <Route path='/about-me' element={<About> </About>} > </Route>
-            <Route path='/contact-me' element={<Contact> </Contact>} > </Route>
-            <Route path='/portfolio' element={<Portfolio> </Portfolio>}> </Route>
-          </Routes>
-    )}
+              <Routes>
+                <Route path='/' element={<Home> </Home>} > </Route>
+                <Route path='/about-me' element={<About> </About>} > </Route>
+                <Route path='/contact-me' element={<Contact> </Contact>} > </Route>
+                <Route path='/portfolio' element={<Portfolio> </Portfolio>}> </Route>
+              </Routes>
+         )}
         </Router>
   </>
   

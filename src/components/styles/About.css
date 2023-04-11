@@ -126,17 +126,24 @@ h3 {
 h6 {
 	font-size: 20px;
 	color: gray;
+	margin: 25px 0px 25px 0px;
+}
+
+.exp-img-wrap{
+	display: flex;
+	justify-content: center;
 }
 
 .exp-img {
 	border: 5px solid gray;
-	display: flex;
 	width: 100px;
 	height: 100px;
 }
 
-.about-d-3 h3 {
-	margin-top: 50px;
+.about-d-3{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 #jump-exp{
@@ -158,8 +165,14 @@ h6 {
 	bottom: 19.688rem;
 }
 
-.med-img {
-	width: 80px;
+.med-icon{
+	display: flex;
+	flex-direction: row;
+}
+
+.med-img{
+	margin: 10px;
+	width: 50px;
 	height: 50px;
 }
 
@@ -174,6 +187,21 @@ h6 {
 	justify-content: center;
 }
 
+
+/* ------------------- Recommendation Div --------------------- */
+
+.recom-wrap{
+	display: flex;
+	flex-direction: row;
+	background-color: aqua;
+	height: 500px;
+}
+
+.recom-card{
+
+}
+
+
 /* -------------------Skill Bar---------------- */
 
 .skill-wrapper {
@@ -182,41 +210,56 @@ h6 {
 
 .skills {
 	height: 14px;
-	border-radius: 3px;
+    border-radius: 20px;
 }
 
 .skill-back {
 	height: 14px;
-	background-color: whitesmoke;
-	border-radius: 10%;
+	background-color: #f6f6eb;
+    border-radius: 20px;
 }
 
 .javas {
 	width: 65%;
-	background-color: red;
+	background-color: #bfd1d0;
 }
 
 .s-css {
 	width: 80%;
-	background-color: blueviolet;
+	background-color: #c2a2c2;
 }
 
 .node {
 	width: 40%;
-	background-color: aqua;
+	background-color: #a4d4dc;
 }
 
 .jquery {
 	width: 60%;
-	background-color: blue;
+	background-color: #f5d5cb;
 }
 
 .react {
 	width: 80%;
-	background-color: chartreuse;
+	background-color: #f3f3ab;
 }
 
 /* -------------------------------------------- */
+
+
+.download-wrap{
+	margin: 100px 5px 30px 5px;
+	display: flex;
+	justify-content: center;
+}
+
+.download-txt{
+	display: flex;
+	justify-content: center;
+}
+
+
+/* Footer */
 
 footer {
 	display: flex;
