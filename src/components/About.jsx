@@ -68,9 +68,11 @@ function About() {
                         <h2 id="jump-edu" className="head-wrap"> Education </h2>
                     </div>
 
-                    <div className="about-d-2">
-                        <i> </i>
+                    <div className="about-d-2">                       
                         <h3> Mountainland Technical College </h3>
+                        <div className="exp-img-wrap">
+                            <img src='./images/mtech.png' className="exp-img" />
+                        </div> 
                         <h6> Web Developement </h6>
                         <h6> August 2022 - May 2023 </h6>
                         <p>
@@ -183,7 +185,7 @@ function About() {
                     <div className="about-d-3">
                         <h3> Quality Assurance </h3>
                         <div className="exp-img-wrap">
-                            <image src='./images/skillstruck.png' className="exp-img" />
+                            <img src='./images/skillstruck.png' className="exp-img" />
                         </div>
                         <h6> Skill Struck </h6>
                         <h6> January 2022 - May 2022 </h6>
@@ -203,7 +205,7 @@ function About() {
 
                         <h3> Technical Support </h3>
                         <div className="exp-img-wrap">
-                            <image src='./images/fluentsolar.png' className="exp-img" alt='image-here' />
+                            <img src='./images/fluentsolar.png' className="exp-img" alt='image-here' />
                         </div>
                         <h6> Fluent Solar </h6>
                         <h6> January 2022 - August 2022 </h6>
@@ -216,7 +218,7 @@ function About() {
 
                         <h3> Customer Service Representative </h3>
                         <div className="exp-img-wrap">
-                            <image src='./images/ppc.png' className="exp-img" />
+                            <img src='./images/ppc.png' className="exp-img" />
                         </div>
                         <h6> Preventive Pest Control </h6>
                         <h6> August 2022 - Present </h6>

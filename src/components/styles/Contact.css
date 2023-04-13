@@ -208,7 +208,13 @@ footer {
     /* Footer */
 
     footer{
+        display: flex;
+        justify-content: space-around;
         height: 120px;
+    }
+
+    .foot-lnk{
+        margin: 50px 35px 50px 0px;
     }
     
 }
