@@ -69,6 +69,7 @@ p {
 
 .about-d {
 	text-align: center;
+	margin-top: 50px;
 }
 
 .head-wrap {
@@ -117,6 +118,8 @@ p {
 
 .about-d-2 {
 	text-align: center;
+	margin-top: 50px;
+
 }
 
 h3 {
@@ -144,6 +147,7 @@ h6 {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	margin-top: 50px;
 }
 
 #jump-exp{
@@ -181,6 +185,7 @@ h6 {
 	flex-direction: column;
 	align-items: center;
 	margin-left: 300px; 
+	margin-top: 50px;
 }
 .media-div{
 	display: flex;
@@ -193,12 +198,47 @@ h6 {
 .recom-wrap{
 	display: flex;
 	flex-direction: row;
-	background-color: aqua;
+	justify-content: center;
+	flex-wrap: wrap;
+	position: relative;
 	height: 500px;
 }
 
 .recom-card{
+	margin: 50px;
+	width: 300px;
+	height: 400px;
+	background-color: #f6f6eb;
+	box-shadow: 20px 20px 50px grey;
+}
 
+.recom-card * {
+	display: flex;
+	justify-content: center;
+	margin: 15px 10px 5px 15px;
+	text-align: center;
+}
+
+.recom-img{
+	border-radius: 50%;
+}
+
+.recom-work{
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+
+
+
+.recom-img{
+	width: 80px;
+	height: 100px;
+}
+
+.recom-card:hover{
+	transition: .5s;
+	box-shadow: 20px 20px 50px 15px grey;
 }
 
 

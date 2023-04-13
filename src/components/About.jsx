@@ -123,14 +123,52 @@ function About() {
                 </div>
 
 
-                    <div className="recom-wrap"> 
+                <div className="recom-wrap">
 
-                        <div className="recom-card"> </div>
-                        <div className="recom-card"> </div>
-                        <div className="recom-card"> </div>
+                    <div className="recom-card">
+
+                        <div className="img-wrap"> <img src="./images/ann.png" className="recom-img" /> </div>
+                        <p className="recom-txt"> "Brooke is an excellent communicator and is very easy to work with.
+                            She learns quickly, follows directions well and is a genuinely active learner.
+                            She asks questions or when she sees something that needs to be updated or adjusted. She will be a fantastic software engineer!"
+                        </p>
+                        <p>
+                            - Ann Gomez
+                            Partnership Support Manager/Intern Coordinator
+                            ann@skillstruck.com
+                        </p>
 
                     </div>
-                    
+                    <div className="recom-card">
+                        <div className="img-wrap"> <img src="./images/brayden.png" className="recom-img" /> </div>
+                        <p className="recom-txt"> " I have complete confidence that Brooke will be successful at anything that she sets her mind to. If she doesn't know something she isn't afraid to go out and learn it!
+
+                            I highly recommend Brooke to any who may be considering offering her work. She will be a valued asset!
+                            "
+                        </p>
+                        <p>
+                            - Brayden Lemke
+                            Instructor
+                            braydenlemke@mtech.stu.edu
+                        </p>
+
+                    </div>
+                    <div className="recom-card">
+                        <div className="img-wrap"> <img src="./images/javier.png" className="recom-img" /> </div>
+                        <p className="recom-txt">
+                            "Ms. Strickland was also able to balance her academic endeavors with her work schedule, and has shown commitment to both.
+                            I would recommend that you consider Brooke become a part of your organization, and I believe she may prove to be a beneficial addition."
+                        </p>
+                        <p>
+                            - Javier Fiqueroa
+                            Manager
+                            javiernfrn@gmail.com.
+                        </p>
+
+                    </div>
+
+                </div>
+
 
                 <div className="hea-p-flex-end">
 
