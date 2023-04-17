@@ -12,6 +12,24 @@
     margin: 0 0 0 50px;
 }
 
+/* fade in styling */
+.fade-in-section {
+	opacity: 0;
+	transform: translateY(20vh);
+	visibility: hidden;
+	transition: opacity 1200ms ease-out, transform 600ms ease-out,
+	  visibility 1200ms ease-out;
+	will-change: opacity, transform, visibility;
+  }
+  .fade-in-section.is-visible {
+	opacity: 1;
+	transform: none;
+	visibility: visible;
+  }
+  
+
+/*  */
+
 p {
 	word-spacing: 1px;
 	font-size: 18px;
@@ -38,8 +56,8 @@ p {
 
 #jump-about {
     position: absolute;
-	top: 20px;
-	left: 100px;
+	bottom: 115px;
+	left: 120px;
 }
 
 .logo-container{
@@ -63,7 +81,7 @@ p {
 	height: 100px;
 	background-color: gray;
 	z-index: 1;
-	top: 70px;
+	top: 40px;
 	left: 125px;
 }
 
@@ -94,7 +112,7 @@ p {
 
 #jump-edu {
 	right: 60px;
-	bottom:	14.063rem;
+	bottom:	145px;
 }
 
 .box3 {
@@ -152,12 +170,12 @@ h6 {
 
 #jump-exp{
 	right: 60px;
-	bottom:	14.063rem;
+	bottom:	145px;
 }
 
 #jump-med {
-	bottom: 15px;
-	left: .5px;
+	bottom: 140px;
+	right: 20px;
 }
 
 .box5{
@@ -190,11 +208,11 @@ h6 {
 	flex-direction: column;
 	align-items: center;
 	margin-left: 300px; 
-	margin-top: 50px;
 }
 .media-div{
 	display: flex;
 	justify-content: center;
+	margin-top: 100px;
 }
 
 

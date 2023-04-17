@@ -2,10 +2,32 @@ import React from "react"
 import { Link } from "react-router-dom"
 import './styles/About.css';
 
-
+// Links
 function Linkedin() { window.open('https://www.linkedin.com/in/brooke-strickland-b7543322a/', '_blank'); }
-
 function Github() { window.open('https://github.com/BrookeStricklandMTEC', '_blank'); }
+// 
+
+// Fade in animation 
+function FadeInSection(props) {
+    const [isVisible, setVisible] = React.useState(true);
+    const domRef = React.useRef();
+    React.useEffect(() => {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => setVisible(entry.isIntersecting));
+      });
+      observer.observe(domRef.current);
+      return () => observer.unobserve(domRef.current);
+    }, []);
+    return (
+      <div
+        className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+        ref={domRef}
+      >
+        {props.children}
+      </div>
+    );
+}
+// 
 
 function About() {
     return <>
@@ -17,11 +39,11 @@ function About() {
                 <a href="#jump-med" className="jumper"> 4 </a>
             </aside>
             <div className="container">
-                {/* flex center wont work, get help to try to center heap-p-flex */}
 
+             {/* <FadeInSection>  */}
                 <div className="hea-p-flex">
                     <div className="logo-container">
-                        <h2 id="jump-about" className="head-wrap"> About Me </h2>
+                        <h2 id="jump-about" className="head-wrap">About Me</h2>
                         <div className="box1" />
                         <div className="box2" />
                     </div>
@@ -123,6 +145,7 @@ function About() {
                     </div>
 
                 </div>
+             
 
 
                 <div className="recom-wrap">
@@ -253,11 +276,12 @@ function About() {
 
                 </div>
 
-
+             {/* </FadeInSection> */}
 
             </div>
 
         </div>
+        
 
         <div className="download-wrap">
             <a download="BrookeStricklandResume.pdf" href="./images/Brooke Strickland Resume 2023.pdf" title="BrookeStricklandResume">
@@ -271,7 +295,7 @@ function About() {
             <Link to={'/'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk' > home </Link>
             <Link to={'/contact-me'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk'> contact </Link>
             <Link to={'/portfolio'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk'> portfolio </Link>
-        </footer>
+        </footer>    
     </>
 }
 
