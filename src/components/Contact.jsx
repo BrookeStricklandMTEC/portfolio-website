@@ -1,14 +1,23 @@
-import React from "react"
+import React, {useEffect} from "react"
 import { Link } from "react-router-dom";
 import './styles/Contact.css';
 
+import AOS from "aos";
+import "aos/dist/aos.css"
+
 function Contact() {
+
+        // aos
+        useEffect(() => {
+            AOS.init({duration: 2000});
+        }, []);
+    
     return (
         <>
             <div className='header'>
                 <p className='header-text'> lets get in touch! </p>
             </div>
-            <div className="email-wrapper">
+            <div className="email-wrapper" data-aos="fade-up">
                 <section>
                     <div className="cont">
                         <form action="https://formspree.io/f/xvonvqpy" method="POST">

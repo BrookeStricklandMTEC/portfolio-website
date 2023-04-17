@@ -1,35 +1,21 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 import './styles/About.css';
 
-// Links
-function Linkedin() { window.open('https://www.linkedin.com/in/brooke-strickland-b7543322a/', '_blank'); }
-function Github() { window.open('https://github.com/BrookeStricklandMTEC', '_blank'); }
-// 
+import AOS from "aos";
+import "aos/dist/aos.css"
 
-// Fade in animation 
-function FadeInSection(props) {
-    const [isVisible, setVisible] = React.useState(true);
-    const domRef = React.useRef();
-    React.useEffect(() => {
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => setVisible(entry.isIntersecting));
-      });
-      observer.observe(domRef.current);
-      return () => observer.unobserve(domRef.current);
+function About() {    
+    // Links
+    function Linkedin() { window.open('https://www.linkedin.com/in/brooke-strickland-b7543322a/', '_blank'); }
+    function Github() { window.open('https://github.com/BrookeStricklandMTEC', '_blank'); }
+    // 
+
+    // aos
+    useEffect(() => {
+     AOS.init({duration: 2000});
     }, []);
-    return (
-      <div
-        className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
-        ref={domRef}
-      >
-        {props.children}
-      </div>
-    );
-}
-// 
 
-function About() {
     return <>
         <div className="wrapper">
             <aside className="jump-wrapper">
@@ -39,9 +25,7 @@ function About() {
                 <a href="#jump-med" className="jumper"> 4 </a>
             </aside>
             <div className="container">
-
-             {/* <FadeInSection>  */}
-                <div className="hea-p-flex">
+                <div className="hea-p-flex" data-aos="fade-up">
                     <div className="logo-container">
                         <h2 id="jump-about" className="head-wrap">About Me</h2>
                         <div className="box1" />
@@ -82,7 +66,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="hea-p-flex-end">
+                <div className="hea-p-flex-end" data-aos="fade-up">
 
                     <div className="logo-container">
                         <div className="box3"> </div>
@@ -145,10 +129,8 @@ function About() {
                     </div>
 
                 </div>
-             
 
-
-                <div className="recom-wrap">
+                <div className="recom-wrap" data-aos="fade-right">
 
                     <div className="recom-card">
 
@@ -195,7 +177,7 @@ function About() {
                 </div>
 
 
-                <div className="hea-p-flex-end">
+                <div className="hea-p-flex-end" data-aos="fade-left">
 
 
                     <div className="logo-container">
@@ -258,7 +240,7 @@ function About() {
 
                 </div>
 
-                <div className="hea-p-flex media-div">
+                <div className="hea-p-flex media-div" data-aos="fade-up">
 
                     <div className="logo-container">
                         <div className="box1"> </div>
