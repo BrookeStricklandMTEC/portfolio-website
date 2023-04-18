@@ -22,11 +22,11 @@ function Contact() {
                     <div className="cont">
                         <form action="https://formspree.io/f/xvonvqpy" method="POST">
                             <div className="form">
-                                <label for="userName" >Subject</label>
+                                <label htmlFor="userName" >Subject</label>
                                 <input type="text" className="userName" name="Username" required />
                             </div>
                             <div className="form">
-                                <label for="message">Message</label>
+                                <label htmlFor="message">Message</label>
                                 <textarea type="text" className="message" name="message" rows="16" required></textarea>
                             </div>
 
