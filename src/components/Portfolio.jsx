@@ -8,8 +8,6 @@ function Portfolio() {
     return<> 
         <FlippableCard> </FlippableCard> 
 
-        <Card> </Card>
-
         <footer>
             <img src='./images/logo1.png' alt='logo not found' id='logo-image' />
             <Link to={'/'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk' > home </Link>

@@ -1,14 +1,19 @@
-import "./card.css";
 
-function Card({onClick, flipped}) {
-  return (
-    <div className={"card " + (flipped ? 'flipped' : '')} onClick={onClick}>
+import "./card.css";
+import FlippableCard2 from "./flippable-card-2";
+
+function Card({onClick, flipped}){
+
+  const cardImages = ['registration.png', 'golfapp.png']
+
+  return cardImages.map( index => {
+    return (<FlippableCard2>
       <div className="card-back"> Back </div>
       <div className="card-front">
-       <img src="./images/psych.png" width={'300px'} height={'500px'}/>
+       <img src={'./images/'+ index} width={'300px'} height={'500px'}/>
       </div>
-    </div>
-  );
+    </FlippableCard2>)
+  });
 }
 
 
