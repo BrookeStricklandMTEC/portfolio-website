@@ -1,5 +1,4 @@
 import "./card.css";
-import "./transition.css";
 
 function Card({onClick, flipped}) {
   return (

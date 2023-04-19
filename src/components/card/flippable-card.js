@@ -1,6 +1,4 @@
-import './flippable-card.css';
 import Card from './card';
-import {CSSTransition} from 'react-transition-group';
 import {useState} from 'react';
 
 function FlippableCard() {

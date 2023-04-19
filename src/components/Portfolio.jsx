@@ -1,5 +1,5 @@
 import React from "react"
-import './styles/About.css'
+import './styles/Portfolio.css'
 import FlippableCard from './card/flippable-card'
 import { Link } from "react-router-dom"
 

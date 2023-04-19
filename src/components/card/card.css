@@ -56,3 +56,8 @@
   background-color: #ffad66;
   transform: rotateY(-180deg);
 }
+.flippable-card-container {
+  height: 500px;
+  width: 300px;
+  perspective: 1000px;
+}
