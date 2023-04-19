@@ -1,4 +1,9 @@
 .card {
+
+  display: flex;
+  justify-content: center;
+
+  margin: 50px;
   height: 100%;
   width: 100%;
 
@@ -57,4 +62,10 @@
   height: 500px;
   width: 300px;
   perspective: 1000px;
+}
+
+.wrapper{
+
+  display: flex;
+
 }
