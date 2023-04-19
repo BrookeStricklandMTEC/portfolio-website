@@ -1,9 +1,12 @@
 import React from "react"
-import './styles/About.css'
+import './styles/Portfolio.css'
 import { Link } from "react-router-dom"
+import Card from './card/card';
 
 function Portfolio() {
     return<> 
+
+        <Card> </Card>
 
         <footer>
             <img src='./images/logo1.png' alt='logo not found' id='logo-image' />
