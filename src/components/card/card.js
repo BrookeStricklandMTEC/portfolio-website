@@ -1,9 +1,9 @@
 import "./card.css";
 import "./transition.css";
 
-function Card({onClick}) {
+function Card({onClick, flipped}) {
   return (
-    <div className="card" onClick={onClick}>
+    <div className={"card " + (flipped ? 'flipped' : '')} onClick={onClick}>
       <div className="card-back"> Back </div>
       <div className="card-front">
        <img src="./images/psych.png" width={'300px'} height={'500px'}/>
