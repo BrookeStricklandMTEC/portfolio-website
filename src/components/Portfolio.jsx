@@ -4,10 +4,15 @@ import FlippableCard from './card/flippable-card'
 import { Link } from "react-router-dom"
 import Card from './card/card';
 
+import CardFlip from './card/card-flip'
+
 function Portfolio() {
     return<> 
-        <FlippableCard> </FlippableCard> 
+        {/* <FlippableCard> </FlippableCard>  */}
 
+        <CardFlip> </CardFlip>
+
+        
         <footer>
             <img src='./images/logo1.png' alt='logo not found' id='logo-image' />
             <Link to={'/'} style={{ textDecoration: 'none', color: '#a9c7ac', fontSize: '20px' }} className='foot-lnk' > home </Link>
