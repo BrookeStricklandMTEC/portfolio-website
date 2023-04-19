@@ -1,14 +1,9 @@
 import React from "react"
 import './styles/About.css'
-import FlippableCard from './card/flippable-card'
 import { Link } from "react-router-dom"
 
 function Portfolio() {
     return<> 
-        <FlippableCard> </FlippableCard> 
-        <FlippableCard> </FlippableCard> 
-        <FlippableCard> </FlippableCard> 
-        <FlippableCard> </FlippableCard> 
 
         <footer>
             <img src='./images/logo1.png' alt='logo not found' id='logo-image' />
