@@ -37,7 +37,7 @@ function About() {
                         <h6> Web Developer </h6>
 
                         <p>
-                            Hello there, my name is Brooke Strickland (as you've probably seen).
+                            Hello there, my name is Brooke Strickland!
 
                             I started programming at the young age of 13, I was the only female in my game development class at Lakeridge Junior High in Orem Utah, my hometown.
                             Game Developement has always been such a cool concept to me. Although, I was more interested in the animation and looks of games at the time.
@@ -137,9 +137,9 @@ function About() {
                         <div className="img-wrap"> <img src="./images/ann.png" className="recom-img" /> </div>
                         <p className="recom-txt"> "Brooke is an excellent communicator and is very easy to work with.
                             She learns quickly, follows directions well and is a genuinely active learner.
-                            She asks questions or when she sees something that needs to be updated or adjusted. She will be a fantastic software engineer!"
+                            She will be a fantastic software engineer!"
                         </p>
-                        <p>
+                        <p className="recom-txt">
                             - Ann Gomez
                             Partnership Support Manager/Intern Coordinator
                             ann@skillstruck.com
@@ -153,7 +153,7 @@ function About() {
                             I highly recommend Brooke to any who may be considering offering her work. She will be a valued asset!
                             "
                         </p>
-                        <p>
+                        <p className="recom-txt">
                             - Brayden Lemke
                             Instructor
                             braydenlemke@mtech.stu.edu
@@ -163,10 +163,10 @@ function About() {
                     <div className="recom-card">
                         <div className="img-wrap"> <img src="./images/javier.png" className="recom-img" /> </div>
                         <p className="recom-txt">
-                            "Ms. Strickland was also able to balance her academic endeavors with her work schedule, and has shown commitment to both.
+                            "Ms. Strickland was able to balance her academic endeavors with her work schedule, and has shown commitment to both.
                             I would recommend that you consider Brooke become a part of your organization, and I believe she may prove to be a beneficial addition."
                         </p>
-                        <p>
+                        <p className="recom-txt">
                             - Javier Fiqueroa
                             Manager
                             javiernfrn@gmail.com.
@@ -243,8 +243,8 @@ function About() {
                 <div className="hea-p-flex media-div" data-aos="fade-up">
 
                     <div className="logo-container">
-                        <div className="box1"> </div>
                         <div className="box5"> </div>
+                        <div className="box6"> </div>
                         <h2 id="jump-med" className="head-wrap"> Media  </h2>
                     </div>
 
