@@ -1,5 +1,4 @@
-
-.foot-lnk{
+.foot-lnk {
     margin: 50px 15px 50px 0px;
 }
 
@@ -7,9 +6,11 @@
 
 @media only screen and (max-width: 600px) {
 
+    footer {
+        width: 100%;
+    }
 
-
-    .foot-lnk{
+    .foot-lnk {
         margin: 50px 15px 50px 0px;
     }
 }

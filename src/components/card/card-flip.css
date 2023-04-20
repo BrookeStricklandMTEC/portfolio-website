@@ -57,3 +57,9 @@
     text-shadow: 2px 2px 2px black;
     transform: perspective(500px) translateZ(50px);
 }
+
+@media only screen and (max-width: 600px) {
+
+    
+
+}

@@ -114,6 +114,7 @@ footer {
 
     .header-text {
         font-size: 30px;
+        margin-left: 90px;
     }
 
     section {
@@ -125,6 +126,7 @@ footer {
     }
 
     .cont {
+        margin-left: 80px;
         width: 80%;
         max-width: 500px;
         padding: 20px;
@@ -211,10 +213,11 @@ footer {
         display: flex;
         justify-content: space-around;
         height: 120px;
+        width: 100%;
     }
 
     .foot-lnk{
-        margin: 50px 35px 50px 0px;
+        margin: 50px 25px 50px 0px;
     }
     
 }

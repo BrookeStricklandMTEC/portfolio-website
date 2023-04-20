@@ -655,7 +655,7 @@ footer img {
 	/* Footer */
 	
 	footer {
-		width: 470px;
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
 	}
