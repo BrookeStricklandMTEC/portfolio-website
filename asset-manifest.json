@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/static/css/main.0335970d.css",
+    "main.js": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/static/js/main.6e6a6f8f.js",
+    "static/js/787.bbe01249.chunk.js": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/static/js/787.bbe01249.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/index.html",
+    "main.0335970d.css.map": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/static/css/main.0335970d.css.map",
+    "main.6e6a6f8f.js.map": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/static/js/main.6e6a6f8f.js.map",
+    "787.bbe01249.chunk.js.map": "/%3CBrookeStricklandMTEC%3E.github.io/%3Cportfolio_website%3E/static/js/787.bbe01249.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0335970d.css",
+    "static/js/main.6e6a6f8f.js"
+  ]
+}
