@@ -63,6 +63,14 @@
     transform: perspective(500px) translateZ(50px);
 }
 
+.card-link{
+    text-decoration: underline;
+}
+
+.card-link:hover{
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
 
     
