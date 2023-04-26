@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import '../node_modules/font-awesome/css/font-awesome.min.css'; 
-import { HashRouter as Router } from 'react-router-dom'; 
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+import { HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Router> 
-         <App />
-    </Router>
+     <App />
 
 );
 
