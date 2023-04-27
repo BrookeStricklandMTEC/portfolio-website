@@ -39,7 +39,7 @@
 }
 
 .card .face.front{
-    background: #ff0;
+    background: gray;
 }
 
 .card:hover .face.front{
@@ -47,7 +47,7 @@
 }
 
 .card .face.back{
-    background: #3bc2ff;
+    background: gray;
     color: #fff;
 
     transform: perspective(500px) rotateY(180deg);

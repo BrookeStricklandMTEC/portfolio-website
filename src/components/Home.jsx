@@ -35,7 +35,7 @@ function Home() {
         <div> 
             <div className='navigation'>
                 <div>
-                    <img src='./images/logo1.png' alt='image displayed here' id='logo-image'/>
+                    <img src='./images/logo1.png' alt='./images/logo1.png' id='logo-image'/>
                 </div>
 
                 <div className='lnd-link'>
