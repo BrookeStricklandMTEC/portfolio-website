@@ -28,7 +28,7 @@ function Home() {
 
     // links 
     function LinkToPort() {
-        window.location.href = '/portfolio'; 
+        window.location.href = '/#/portfolio'; 
     }
  
     return <>
