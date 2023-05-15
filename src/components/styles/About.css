@@ -39,8 +39,9 @@ p {
 
 #jump-about {
     position: absolute;
-	bottom: 115px;
-	left: 120px;
+	bottom: 145px;
+	left: 130px;
+	white-space: nowrap;
 }
 
 .logo-container{
