@@ -1,15 +1,19 @@
 .wrapper {
 	display: flex;
-    height: 100%;
+	height: 100%;
+
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
+
 .container {
-    align-self: flex-end;
-    position: relative;
+	align-self: flex-end;
+	position: relative;
 	display: flex;
 	flex-direction: column;
-    padding: 8px;
-    width: calc(100% - 66px);
-    margin: 0 0 0 50px;
+	padding: 8px;
+	width: calc(100% - 66px);
+	margin: 0 0 0 50px;
 }
 
 p {
@@ -18,18 +22,18 @@ p {
 }
 
 .jump-wrapper {
-    position: fixed;
+	position: fixed;
 	display: flex;
-    height: 100%;
-    background-color: #82ac85;
-    justify-content: space-evenly;
-    margin: 0;
-    align-items: center;
+	height: 100%;
+	background-color: #82ac85;
+	justify-content: space-evenly;
+	margin: 0;
+	align-items: center;
 	flex-direction: column;
-    width: 60px;
+	width: 60px;
 	left: 0;
-	top:0;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	top: 0;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .jumper {
@@ -38,20 +42,20 @@ p {
 }
 
 #jump-about {
-    position: absolute;
+	position: absolute;
 	bottom: 145px;
 	left: 130px;
 	white-space: nowrap;
 }
 
-.logo-container{
-    position: relative;
-    width: 200px;
-    height: 200px;
+.logo-container {
+	position: relative;
+	width: 200px;
+	height: 200px;
 }
 
 .box1 {
-    position: absolute;
+	position: absolute;
 	width: 120px;
 	height: 100px;
 	background-color: #82ac85;
@@ -96,7 +100,7 @@ p {
 
 #jump-edu {
 	right: 60px;
-	bottom:	145px;
+	bottom: 145px;
 }
 
 .box3 {
@@ -134,7 +138,7 @@ h6 {
 	margin: 25px 0px 25px 0px;
 }
 
-.exp-img-wrap{
+.exp-img-wrap {
 	display: flex;
 	justify-content: center;
 }
@@ -145,16 +149,16 @@ h6 {
 	height: 100px;
 }
 
-.about-d-3{
+.about-d-3 {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	margin-top: 50px;
 }
 
-#jump-exp{
+#jump-exp {
 	right: 60px;
-	bottom:	145px;
+	bottom: 145px;
 }
 
 #jump-med {
@@ -162,7 +166,7 @@ h6 {
 	right: 20px;
 }
 
-.box5{
+.box5 {
 	width: 120px;
 	height: 100px;
 	background-color: gray;
@@ -171,7 +175,8 @@ h6 {
 	bottom: 3rem;
 	left: 120px;
 }
-.box6{
+
+.box6 {
 	position: absolute;
 	width: 120px;
 	height: 100px;
@@ -181,16 +186,16 @@ h6 {
 	left: 55px;
 }
 
-.med-icon{
+.med-icon {
 	display: flex;
 	flex-direction: row;
 }
 
-.med-icon:hover{
+.med-icon:hover {
 	cursor: pointer;
 }
 
-.med-img{
+.med-img {
 	margin: 10px;
 	width: 50px;
 	height: 50px;
@@ -200,9 +205,10 @@ h6 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-left: 300px; 
+	margin-left: 300px;
 }
-.media-div{
+
+.media-div {
 	display: flex;
 	justify-content: center;
 	margin-top: 100px;
@@ -211,7 +217,7 @@ h6 {
 
 /* ------------------- Recommendation Div --------------------- */
 
-.recom-wrap{
+.recom-wrap {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -219,7 +225,7 @@ h6 {
 	flex-wrap: wrap;
 }
 
-.recom-card{
+.recom-card {
 	margin: 50px;
 	width: 300px;
 	height: 400px;
@@ -234,11 +240,11 @@ h6 {
 	text-align: center;
 }
 
-.recom-img{
+.recom-img {
 	border-radius: 50%;
 }
 
-.recom-work{
+.recom-work {
 	width: 50px;
 	height: 50px;
 	position: relative;
@@ -246,12 +252,12 @@ h6 {
 
 
 
-.recom-img{
+.recom-img {
 	width: 80px;
 	height: 100px;
 }
 
-.recom-card:hover{
+.recom-card:hover {
 	transition: .5s;
 	box-shadow: 20px 20px 50px 15px grey;
 }
@@ -265,13 +271,13 @@ h6 {
 
 .skills {
 	height: 14px;
-    border-radius: 20px;
+	border-radius: 20px;
 }
 
 .skill-back {
 	height: 14px;
 	background-color: #f6f6eb;
-    border-radius: 20px;
+	border-radius: 20px;
 }
 
 .javas {
@@ -302,13 +308,13 @@ h6 {
 /* -------------------------------------------- */
 
 
-.download-wrap{
+.download-wrap {
 	margin: 100px 5px 30px 5px;
 	display: flex;
 	justify-content: center;
 }
 
-.download-txt{
+.download-txt {
 	display: flex;
 	justify-content: center;
 }
@@ -334,6 +340,7 @@ footer img {
 		display: flex;
 		height: 100%;
 	}
+
 	.container {
 		align-self: flex-end;
 		position: relative;
@@ -343,12 +350,12 @@ footer img {
 		width: 100%;
 		margin: 0 0 0 50px;
 	}
-	
+
 	p {
 		word-spacing: 1px;
 		font-size: 18px;
 	}
-	
+
 	.jump-wrapper {
 		flex: 1 0 10%;
 		position: fixed;
@@ -362,25 +369,25 @@ footer img {
 		width: 50px;
 		box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 	}
-	
+
 	.jumper {
 		color: black;
 		text-decoration: none;
 	}
-	
+
 	#jump-about {
 		position: absolute;
 		top: -65px;
 		left: 25px;
 	}
-	
-	.logo-container{
+
+	.logo-container {
 		position: relative;
 		width: 200px;
 		left: 50px;
 		height: 200px;
 	}
-	
+
 	.box1 {
 		position: absolute;
 		width: 120px;
@@ -390,7 +397,7 @@ footer img {
 		bottom: 150px;
 		left: -35px;
 	}
-	
+
 	.box2 {
 		position: absolute;
 		width: 120px;
@@ -400,37 +407,37 @@ footer img {
 		top: -15px;
 		left: 10px;
 	}
-	
+
 	.about-d {
 		text-align: center;
 		margin-top: 150px;
 		z-index: 5;
 	}
-	
+
 	.head-wrap {
 		z-index: 3;
 		position: relative;
 	}
-	
+
 	.hea-p-flex {
 		display: flex;
 		flex-direction: row;
 		text-align: center;
 		margin: 30px 15px 30px 15px;
 	}
-	
+
 	.hea-p-flex-end {
 		display: flex;
 		flex-direction: row-reverse;
 		text-align: center;
 		margin: 30px 15px 30px 15px
 	}
-	
+
 	#jump-edu {
 		right: 5px;
-		bottom:	14.063rem;
+		bottom: 14.063rem;
 	}
-	
+
 	.box3 {
 		width: 120px;
 		height: 110px;
@@ -440,7 +447,7 @@ footer img {
 		top: 10px;
 		left: 30px;
 	}
-	
+
 	.box4 {
 		width: 120px;
 		height: 110px;
@@ -450,53 +457,53 @@ footer img {
 		bottom: 65px;
 		right: 1px;
 	}
-	
+
 	.about-d-2 {
 		text-align: center;
 		margin-top: 150px;
 		z-index: 5;
 	}
-	
+
 	h3 {
 		font-size: 23px;
 	}
-	
+
 	h6 {
 		font-size: 20px;
 		color: gray;
 		margin: 25px 0px 25px 0px;
 	}
-	
-	.exp-img-wrap{
+
+	.exp-img-wrap {
 		display: flex;
 		justify-content: center;
 	}
-	
+
 	.exp-img {
 		border: 5px solid gray;
 		width: 100px;
 		height: 100px;
 	}
-	
-	.about-d-3{
+
+	.about-d-3 {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 		margin-top: 50px;
 		z-index: 5;
 	}
-	
-	#jump-exp{
+
+	#jump-exp {
 		right: 15px;
-		bottom:	14.063rem;
+		bottom: 14.063rem;
 	}
-	
+
 	#jump-med {
 		bottom: -15px;
 		left: 90px;
 	}
-	
-	.box5{
+
+	.box5 {
 		position: absolute;
 		width: 120px;
 		height: 100px;
@@ -506,7 +513,7 @@ footer img {
 		left: 60px;
 	}
 
-	.box6{
+	.box6 {
 		position: absolute;
 		width: 120px;
 		height: 100px;
@@ -515,156 +522,157 @@ footer img {
 		bottom: 70px;
 		left: 25px;
 	}
-	
-	.med-icon{
+
+	.med-icon {
 		display: flex;
 		flex-direction: row;
 	}
-	
-	.med-icon:hover{
+
+	.med-icon:hover {
 		cursor: pointer;
 	}
-	
-	.med-img{
+
+	.med-img {
 		margin: 10px;
 		width: 50px;
 		height: 50px;
 	}
-	
+
 	.about-d-4 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		margin-left: 250px;
-		margin-right: 50px; 
+		margin-right: 50px;
 		margin-top: 20px;
 		z-index: 5;
 	}
-	.media-div{
+
+	.media-div {
 		display: flex;
 		justify-content: center;
 	}
-	
-	
+
+
 	/* ------------------- Recommendation Div --------------------- */
-	
-	.recom-wrap{
+
+	.recom-wrap {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
-	
-	.recom-card{
+
+	.recom-card {
 		margin: 50px;
 		width: 315px;
 		height: 425px;
 		background-color: #f6f6eb;
 		box-shadow: 20px 20px 50px grey;
 	}
-	
+
 	.recom-card * {
 		display: flex;
 		justify-content: center;
 		margin: 15px 10px 5px 15px;
 		text-align: center;
 	}
-	
-	.recom-img{
+
+	.recom-img {
 		border-radius: 50%;
 	}
-	
-	.recom-work{
+
+	.recom-work {
 		width: 50px;
 		height: 50px;
 		position: relative;
 	}
 
-	.recom-txt{
+	.recom-txt {
 		font-size: 17px;
-	}	
-	
-	.recom-img{
+	}
+
+	.recom-img {
 		width: 80px;
 		height: 100px;
 	}
-	
-	.recom-card:hover{
+
+	.recom-card:hover {
 		transition: .5s;
 		box-shadow: 20px 20px 50px 15px grey;
 	}
-	
-	
+
+
 	/* -------------------Skill Bar---------------- */
-	
+
 	.skill-wrapper {
 		margin: 50px 5px 50px 5px;
 	}
-	
+
 	.skills {
 		height: 14px;
 		border-radius: 20px;
 	}
-	
+
 	.skill-back {
 		height: 14px;
 		background-color: #f6f6eb;
 		border-radius: 20px;
 	}
-	
+
 	.javas {
 		width: 65%;
 		background-color: #bfd1d0;
 	}
-	
+
 	.s-css {
 		width: 80%;
 		background-color: #c2a2c2;
 	}
-	
+
 	.node {
 		width: 40%;
 		background-color: #a4d4dc;
 	}
-	
+
 	.jquery {
 		width: 60%;
 		background-color: #f5d5cb;
 	}
-	
+
 	.react {
 		width: 80%;
 		background-color: #f3f3ab;
 	}
-	
+
 	/* -------------------------------------------- */
-	
-	
-	.download-wrap{
+
+
+	.download-wrap {
 		margin: 150px 5px 15px 130px;
 		display: flex;
 		justify-content: center;
 	}
-	
-	.download-txt{
+
+	.download-txt {
 		margin-left: 120px;
 		display: flex;
 		justify-content: center;
 	}
-	
-	
+
+
 	/* Footer */
-	
+
 	footer {
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
 	}
-	
+
 	footer img {
 		margin: 15px 0px 0px 40px;
 	}
-	
+
 	.foot-lnk {
 		margin: 50px 100px 0px 5px;
 	}
