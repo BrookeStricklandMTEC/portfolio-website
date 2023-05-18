@@ -39,6 +39,9 @@ body {
     align-items: center;
     font-size: x-large;
     text-align: center;
+
+    top: 50px;
+    right: calc(50% - .5em)
 }
 
 

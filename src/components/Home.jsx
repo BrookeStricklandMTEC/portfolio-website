@@ -51,7 +51,7 @@ function Home() {
                 <h1> Hi I'm Brooke, A Full Stack Developer.</h1>
                 <h3> Build Unique with me!</h3>
             </div>
-                <div className='second-content'>
+                {/* <div className='second-content'>
                     <div className='r-ani' data-aos="fade-right">
                         <div id='plant-wrapper'>
                             <img src='./images/plant.gif' className='animation' id='plant-animation' />
@@ -65,7 +65,7 @@ function Home() {
                             <img src='./images/ghost.gif' className='animation' id='ghost-animation' />
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             <div className='button-wrapper' data-aos="fade-up">
                 <button className="button" role="button23" onClick={LinkToPort}> show me more! </button>
