@@ -18,12 +18,12 @@ function About() {
 
     return <>
         <div className="wrapper">
-            <aside className="jump-wrapper">
+            {/* <aside className="jump-wrapper">
                 <Link to="/#/#jump-about" className="jumper"> Section One </Link>
                 <a href="/#/#jump-edu" className="jumper">  2</a>
                 <a href="/#/#jump-exp" className="jumper"> 3 </a>
                 <a href="/#/#jump-med" className="jumper"> 4 </a>
-            </aside>
+            </aside> */}
             <div className="container">
                 <div className="hea-p-flex" data-aos="fade-up">
                     <div className="logo-container">
